@@ -38,18 +38,18 @@
       "current": true
     },
     {
-      "role": "TODO — previous role",
-      "company": "TODO — company",
-      "location": "TODO — location",
-      "period": "TODO — e.g. 2015 – 2020",
-      "summary": "TODO — one or two lines on what you owned and what shipped."
+      "role": "Sr. Software Developer",
+      "company": "Standard Chartered Bank",
+      "location": "Singapore",
+      "period": "Feb 2013 – Jan 2017",
+      "summary": "Market risk platform built with Apache Spark."
     },
     {
-      "role": "TODO — previous role",
-      "company": "TODO — company",
-      "location": "TODO — location",
-      "period": "TODO — e.g. 2010 – 2015",
-      "summary": "TODO — one or two lines on what you owned and what shipped."
+      "role": "Software Developer",
+      "company": "Quartet Financial Systems",
+      "location": "Singapore",
+      "period": "Nov 2011 – Jan 2013",
+      "summary": "In-memory analytics solutions."
     }
   ],
 
