@@ -159,6 +159,7 @@ const LINK_LABELS = {
   blog:     'Blog',
   github:   'GitHub',
   linkedin: 'LinkedIn',
+  twitter:  'Twitter',
   email:    'Email',
 };
 
