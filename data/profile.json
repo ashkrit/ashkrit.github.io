@@ -57,27 +57,49 @@
 
   "bookshelf": [
     {
-      "category": "Books",
+      "category": "Recommended Books",
       "items": [
         {
           "title": "Designing Data-Intensive Applications",
           "author": "Martin Kleppmann",
+          "cover": "assets/images/books/ddia.jpg",
+          "url": "https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/",
           "note": "Essential reading for distributed systems, consistency models, and fault tolerance."
         },
         {
           "title": "Java Concurrency in Practice",
           "author": "Brian Goetz",
+          "cover": "assets/images/books/jcip.jpg",
+          "url": "https://jcip.net/",
           "note": "The definitive guide to thread safety, memory models, and concurrent design on the JVM."
         },
         {
           "title": "Systems Performance: Enterprise & the Cloud",
           "author": "Brendan Gregg",
+          "cover": "assets/images/books/sysperf.jpg",
+          "url": "https://www.brendangregg.com/systems-performance-2nd-edition-book.html",
           "note": "Unmatched resource for performance profiling, latency analysis, and hardware counters."
         },
         {
           "title": "Database Internals",
           "author": "Alex Petrov",
+          "cover": "assets/images/books/dbinternals.jpg",
+          "url": "https://www.databass.dev/",
           "note": "Deep dive into storage engines, B-Trees, LSM-Trees, and distributed consensus."
+        },
+        {
+          "title": "Working Effectively with Legacy Code",
+          "author": "Michael Feathers",
+          "cover": "assets/images/books/legacy-code.jpg",
+          "url": "https://www.oreilly.com/library/view/working-effectively-with/0131177052/",
+          "note": "Essential strategies for safely refactoring, testing, and decoupling complex legacy codebases."
+        },
+        {
+          "title": "Functional Design: Principles, Patterns, and Practices",
+          "author": "Robert C. Martin (Uncle Bob)",
+          "cover": "assets/images/books/functional-design.jpg",
+          "url": "https://www.oreilly.com/library/view/functional-design-principles/9780138176518/",
+          "note": "Pragmatic functional programming principles, immutability, and clean architecture applied to modern systems."
         }
       ]
     },
@@ -87,21 +109,25 @@
         {
           "title": "LMAX Disruptor: High Performance Inter-Thread Messaging",
           "author": "Martin Thompson et al.",
+          "url": "https://lmax-exchange.github.io/disruptor/files/Disruptor-1.0.pdf",
           "note": "Mechanical sympathy, lock-free ring buffers, and microsecond latency design."
         },
         {
           "title": "In Search of an Understandable Consensus Algorithm (Raft)",
           "author": "Diego Ongaro & John Ousterhout",
+          "url": "https://raft.github.io/raft.pdf",
           "note": "Consensus algorithm for replicated logs, state machine replication, and leader election."
         },
         {
           "title": "Spanner: Google’s Globally-Distributed Database",
           "author": "Corbett et al.",
+          "url": "https://research.google/pubs/spanner-googles-globally-distributed-database/",
           "note": "TrueTime API, external consistency, and global multi-version concurrency control."
         },
         {
           "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
           "author": "Shunyu Yao et al.",
+          "url": "https://arxiv.org/abs/2210.03629",
           "note": "Interleaving reasoning traces and action execution for agentic AI architectures."
         }
       ]

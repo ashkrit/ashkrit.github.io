@@ -266,12 +266,66 @@ function renderBookshelf(profile) {
     groupWrap.append(el('h3', 'focus-title', section.category));
 
     const grid = el('div', 'cards bookshelf-grid');
+    const isPaperSection = (section.category || '').toLowerCase().includes('paper');
+
     (section.items || []).forEach((item) => {
       const card = el('div', 'card book-card');
-      const h4 = el('h4', 'card-title', item.title);
-      card.append(h4);
-      card.append(el('p', 'book-author', `by ${item.author}`));
-      if (item.note) card.append(el('p', 'card-excerpt', item.note));
+      const href = real(item.url);
+
+      if (item.cover) {
+        const coverWrap = el('div', 'book-cover-wrap');
+        const img = document.createElement('img');
+        img.src = item.cover;
+        img.alt = item.title || 'Book Cover';
+        img.className = 'book-cover-img';
+        img.loading = 'lazy';
+
+        if (href) {
+          const imgLink = link(href, null, 'book-cover-link');
+          imgLink.append(img);
+          coverWrap.append(imgLink);
+        } else {
+          coverWrap.append(img);
+        }
+        card.append(coverWrap);
+      } else {
+        const iconWrap = el('div', 'paper-icon-wrap');
+        const iconBox = el('div', 'paper-icon-box');
+        if (isPaperSection) {
+          iconBox.innerHTML = `<svg class="paper-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>`;
+        } else {
+          iconBox.innerHTML = `<svg class="paper-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>`;
+        }
+        iconWrap.append(iconBox);
+        card.append(iconWrap);
+      }
+
+      const body = el('div', 'book-card-body');
+
+      const h4 = el('h4', 'card-title');
+      if (href) {
+        const titleLink = link(href, item.title, 'book-title-link');
+        h4.append(titleLink);
+      } else {
+        h4.textContent = item.title;
+      }
+      body.append(h4);
+
+      if (item.author) {
+        body.append(el('p', 'book-author', `by ${item.author}`));
+      }
+
+      if (item.note) {
+        body.append(el('p', 'card-excerpt', item.note));
+      }
+
+      if (href) {
+        const label = isPaperSection ? 'Read Paper ↗' : 'Read Book ↗';
+        const actionBtn = link(href, label, 'book-action-link');
+        body.append(actionBtn);
+      }
+
+      card.append(body);
       grid.append(card);
     });
     groupWrap.append(grid);
