@@ -152,7 +152,131 @@ function renderProfile(profile) {
   }
 
   renderLinks(profile.links || {});
+  renderStack(profile);
+  renderBookshelf(profile);
   renderExperience(profile);
+}
+
+const STACK_ICONS = {
+  "Languages & Runtimes": `<svg class="stack-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>`,
+  "Distributed Systems & Data": `<svg class="stack-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>`,
+  "AI & Agentic Systems": `<svg class="stack-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="15" x2="23" y2="15"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="15" x2="4" y2="15"></line></svg>`,
+  "Systems & Performance": `<svg class="stack-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>`
+};
+
+const TECH_ICONS = {
+  // Languages & Runtimes - Official Brand Vector SVGs
+  "Java (JVM)": `<svg class="tech-tag-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M8.851 18.56s-.917.534.453.6c2.146.104 4.48-.068 6.463-.53 0 0 .584.343 1.096.55-2.502.825-7.397.97-9.58.118-1.579-.614 1.568-.738 1.568-.738zm-1.127-2.73s-1.16.71.309.782c2.478.122 5.626-.145 7.842-.741 0 0 .513.375.926.544-2.89 1.006-8.79 1.15-11.003.181-1.688-.739 1.926-.766 1.926-.766zm10.669-3.957c.767.828.36 1.666-.34 2.457-1.176 1.328-3.324 2.29-6.93 2.29-2.736 0-4.945-.487-6.024-1.282-.553-.408-.667-.852-.395-1.23.498-.696 2.015-.815 2.015-.815s-.75-.522-1.396-.928c-1.87 1.055-1.642 2.375.14 3.23 2.183 1.047 7.02 1.34 10.366.195 2.443-.836 3.428-2.316 2.064-3.612 0 0-.256.326-.75.695zm-6.19-4.887c1.332 1.706-1.564 3.418-1.564 3.418s3.473-.837 2.036-3.418c-1.077-1.936-2.585-2.885-3.353-4.483 0 0-.327 1.488 2.881 4.483z"/></svg>`,
+  "Go": `<svg class="tech-tag-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M1.81 10.25c.34 0 .67.01 1.01.03l.08-1.27c-.37-.02-.73-.03-1.09-.03-1.06 0-1.81.71-1.81 1.76v.02c0 .99.69 1.69 1.81 1.69.36 0 .72-.01 1.09-.04l-.08-1.27c-.34.02-.67.03-1.01.03-.52 0-.82-.28-.82-.7v-.02c0-.44.3-.7.82-.7zm4.27-1.27h-1.3v5.22h1.3V8.98zm3.62 1.94c0-.98-.67-1.67-1.66-1.67-.99 0-1.67.69-1.67 1.67 0 .99.68 1.68 1.67 1.68.99 0 1.66-.69 1.66-1.68zm1.31 0c0 1.68-1.26 2.94-2.97 2.94-1.71 0-2.97-1.26-2.97-2.94s1.26-2.93 2.97-2.93c1.71 0 2.97 1.25 2.97 2.93zm4.56.28h-2.11v.96h.88c-.24.49-.71.79-1.3.79-.88 0-1.46-.62-1.46-1.52s.58-1.52 1.46-1.52c.51 0 .97.23 1.24.62l.94-.65C14.19 9.3 13.35 8.9 12.35 8.9c-1.64 0-2.82 1.13-2.82 2.76 0 1.64 1.18 2.77 2.82 2.77 1.58 0 2.66-1.03 2.66-2.58v-.65z"/></svg>`,
+  "Python": `<svg class="tech-tag-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M11.927 0C5.503 0 5.897 2.793 5.897 2.793v2.89H12.18v.834H3.722S0 6.096 0 12.553c0 6.456 3.25 6.262 3.25 6.262h1.942v-2.738s-.106-3.25 3.25-3.25h5.456s3.056.05 3.056-2.95V3.136S17.472 0 11.927 0zm-2.56 1.83a1.002 1.002 0 1 1 0 2.004 1.002 1.002 0 0 1 0-2.004zm2.706 22.17c6.424 0 6.03-2.793 6.03-2.793v-2.89H11.82v-.834h8.458S24 17.904 24 11.447c0-6.456-3.25-6.262-3.25-6.262h-1.942v2.738s.106 3.25-3.25 3.25H10.1c-3.056 0-3.056 2.95-3.056 2.95v6.786s.484 3.136 6.03 3.136zm2.56-1.83a1.002 1.002 0 1 1 0-2.004 1.002 1.002 0 0 1 0 2.004z"/></svg>`,
+  "C/C++": `<svg class="tech-tag-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 0L1.75 3.65v10.35c0 6.64 4.36 12.87 10.24 14.36 5.88-1.49 10.24-7.72 10.24-14.36V3.65L11.99 0zm0 3.32l7.75 2.76v8.42c0 5.1-3.35 9.87-7.75 11.08-4.4-1.21-7.75-5.98-7.75-11.08V6.08l7.75-2.76zm-1.8 5.68c-2.45 0-4.43 1.98-4.43 4.43s1.98 4.43 4.43 4.43c1.55 0 2.91-.79 3.7-1.99l-1.63-.94c-.42.61-1.12 1.01-1.92 1.01-1.39 0-2.51-1.12-2.51-2.51s1.12-2.51 2.51-2.51c.8 0 1.5.4 1.92 1.01l1.63-.94c-.79-1.2-2.15-1.99-3.7-1.99zm6.05 2.82h-1.07v1.07h-1.07v1.07h1.07v1.07h1.07v-1.07h1.07v-1.07h-1.07v-1.07zm3.12 0h-1.07v1.07h-1.07v1.07h1.07v1.07h1.07v-1.07h1.07v-1.07h-1.07v-1.07z"/></svg>`,
+
+  // Distributed Systems & Data
+  "Apache Spark": `<svg class="tech-tag-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm1.75 18.5l-2.2-3.8h-1.8v3.8H8.25V5.5h4.85c2.3 0 3.7 1.25 3.7 3.25 0 1.55-.9 2.55-2.15 2.95l2.45 4.3v2.5h-1.35zm-2.25-9.35H10v3.45h1.5c1.25 0 2.05-.6 2.05-1.72.05-1.13-.75-1.73-2.05-1.73z"/></svg>`,
+  "Kafka": `<svg class="tech-tag-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12zm0-2.25c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75zm-3.375-5.25l6.75-4.5-6.75-4.5v9z"/></svg>`,
+  "Distributed DBs": `<svg class="tech-tag-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 4.24 2 7v10c0 2.76 4.48 5 10 5s10-2.24 10-5V7c0-2.76-4.48-5-10-5zm0 3c4.2 0 7.8.9 8 2.08C19.8 9.25 16.2 10.15 12 10.15s-7.8-.9-8-2.07C4.2 6.9 7.8 6 12 6zm0 13.85c-4.2 0-7.8-.9-8-2.07v-2.35c1.9.95 4.8 1.42 8 1.42s6.1-.47 8-1.42v2.35c-.2 1.17-3.8 2.07-8 2.07z"/></svg>`,
+  "Redis": `<svg class="tech-tag-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M22.5 15.5l-9.5 5.5-9.5-5.5v-7l9.5-5.5 9.5 5.5v7zm-9.5-10.5l-7 4 7 4 7-4-7-4zm-7.5 5.5v4.5l6.5 3.8v-4.5l-6.5-3.8zm15 0l-6.5 3.8v4.5l6.5-3.8v-4.5z"/></svg>`,
+  "In-Memory Analytics": `<svg class="tech-tag-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v5h-2v-5H7v-2h4V6h2v5h4v2z"/></svg>`,
+
+  // AI & Agentic Systems
+  "LLM Agent Harnesses": `<svg class="tech-tag-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a2 2 0 0 1 2 2v1.07A7.002 7.002 0 0 1 19 12a7 7 0 0 1-5 6.71V20a2 2 0 0 1-4 0v-1.29A7.002 7.002 0 0 1 5 12a7 7 0 0 1 5-6.93V4a2 2 0 0 1 2-2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10z"/></svg>`,
+  "RAG Architecture": `<svg class="tech-tag-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/></svg>`,
+  "Prompt Evaluation": `<svg class="tech-tag-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>`,
+  "Vector DBs": `<svg class="tech-tag-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>`,
+
+  // Systems & Performance
+  "Low-Latency Design": `<svg class="tech-tag-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>`,
+  "Lock-Free Algorithms": `<svg class="tech-tag-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm6-9h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM8.9 6c0-1.71 1.39-3.1 3.1-3.1s3.1 1.39 3.1 3.1v2H8.9V6z"/></svg>`,
+  "GC Optimization": `<svg class="tech-tag-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z"/></svg>`,
+  "Microsecond Budgets": `<svg class="tech-tag-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M7 2v2h10V2H7zm0 18v2h10v-2H7zM12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"/></svg>`
+};
+
+const TECH_IMAGE_MAP = {
+  "Java (JVM)": "assets/images/tech/java.svg",
+  "Go": "assets/images/tech/go.svg",
+  "Python": "assets/images/tech/python.svg",
+  "C/C++": "assets/images/tech/cplusplus.svg",
+  "Apache Spark": "assets/images/tech/spark.svg",
+  "Kafka": "assets/images/tech/kafka.svg",
+  "Redis": "assets/images/tech/redis.svg"
+};
+
+function renderStack(profile) {
+  const container = $('#stack-list');
+  if (!container) return;
+
+  const stack = profile.stack || [];
+  if (!stack.length) {
+    $('#stack')?.remove();
+    return;
+  }
+
+  stack.forEach((group) => {
+    const card = el('div', 'card stack-card');
+
+    const header = el('div', 'stack-header');
+    const svgHTML = STACK_ICONS[group.category] || STACK_ICONS["Languages & Runtimes"];
+    const iconBox = el('div', 'stack-icon-box');
+    iconBox.innerHTML = svgHTML;
+    header.append(iconBox);
+
+    const h3 = el('h3', 'card-title', group.category);
+    header.append(h3);
+    card.append(header);
+
+    if (group.skills?.length) {
+      const list = el('div', 'card-labels');
+      group.skills.forEach((skill) => {
+        const tag = el('span', 'tag tag-icon');
+        if (TECH_IMAGE_MAP[skill]) {
+          tag.classList.add('tag-brand-only');
+          tag.setAttribute('title', skill);
+          tag.setAttribute('aria-label', skill);
+          const img = el('img', 'tech-brand-img');
+          img.src = TECH_IMAGE_MAP[skill];
+          img.alt = skill;
+          tag.append(img);
+        } else {
+          const iconSVG = TECH_ICONS[skill] || `<span class="tag-bullet"></span>`;
+          const span = el('span', 'tag-svg-wrap');
+          span.innerHTML = iconSVG;
+          tag.append(span);
+          tag.append(el('span', 'tag-text', skill));
+        }
+        list.append(tag);
+      });
+      card.append(list);
+    }
+    container.append(card);
+  });
+}
+
+function renderBookshelf(profile) {
+  const container = $('#bookshelf-list');
+  if (!container) return;
+
+  const bookshelf = profile.bookshelf || [];
+  if (!bookshelf.length) {
+    $('#bookshelf')?.remove();
+    return;
+  }
+
+  bookshelf.forEach((section) => {
+    const groupWrap = el('div', 'bookshelf-group');
+    groupWrap.append(el('h3', 'focus-title', section.category));
+
+    const grid = el('div', 'cards bookshelf-grid');
+    (section.items || []).forEach((item) => {
+      const card = el('div', 'card book-card');
+      const h4 = el('h4', 'card-title', item.title);
+      card.append(h4);
+      card.append(el('p', 'book-author', `by ${item.author}`));
+      if (item.note) card.append(el('p', 'card-excerpt', item.note));
+      grid.append(card);
+    });
+    groupWrap.append(grid);
+    container.append(groupWrap);
+  });
 }
 
 const LINK_LABELS = {

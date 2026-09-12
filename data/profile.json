@@ -53,5 +53,77 @@
     }
   ],
 
-  "education": []
+  "education": [],
+
+  "bookshelf": [
+    {
+      "category": "Books",
+      "items": [
+        {
+          "title": "Designing Data-Intensive Applications",
+          "author": "Martin Kleppmann",
+          "note": "Essential reading for distributed systems, consistency models, and fault tolerance."
+        },
+        {
+          "title": "Java Concurrency in Practice",
+          "author": "Brian Goetz",
+          "note": "The definitive guide to thread safety, memory models, and concurrent design on the JVM."
+        },
+        {
+          "title": "Systems Performance: Enterprise & the Cloud",
+          "author": "Brendan Gregg",
+          "note": "Unmatched resource for performance profiling, latency analysis, and hardware counters."
+        },
+        {
+          "title": "Database Internals",
+          "author": "Alex Petrov",
+          "note": "Deep dive into storage engines, B-Trees, LSM-Trees, and distributed consensus."
+        }
+      ]
+    },
+    {
+      "category": "Foundational Papers",
+      "items": [
+        {
+          "title": "LMAX Disruptor: High Performance Inter-Thread Messaging",
+          "author": "Martin Thompson et al.",
+          "note": "Mechanical sympathy, lock-free ring buffers, and microsecond latency design."
+        },
+        {
+          "title": "In Search of an Understandable Consensus Algorithm (Raft)",
+          "author": "Diego Ongaro & John Ousterhout",
+          "note": "Consensus algorithm for replicated logs, state machine replication, and leader election."
+        },
+        {
+          "title": "Spanner: Google’s Globally-Distributed Database",
+          "author": "Corbett et al.",
+          "note": "TrueTime API, external consistency, and global multi-version concurrency control."
+        },
+        {
+          "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+          "author": "Shunyu Yao et al.",
+          "note": "Interleaving reasoning traces and action execution for agentic AI architectures."
+        }
+      ]
+    }
+  ],
+
+  "stack": [
+    {
+      "category": "Languages & Runtimes",
+      "skills": ["Java (JVM)", "Go", "Python", "C/C++"]
+    },
+    {
+      "category": "Distributed Systems & Data",
+      "skills": ["Apache Spark", "Kafka", "Distributed DBs", "Redis", "In-Memory Analytics"]
+    },
+    {
+      "category": "AI & Agentic Systems",
+      "skills": ["LLM Agent Harnesses", "RAG Architecture", "Prompt Evaluation", "Vector DBs"]
+    },
+    {
+      "category": "Systems & Performance",
+      "skills": ["Low-Latency Design", "Lock-Free Algorithms", "GC Optimization", "Microsecond Budgets"]
+    }
+  ]
 }
