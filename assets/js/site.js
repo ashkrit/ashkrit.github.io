@@ -293,7 +293,7 @@ function renderPosts(data) {
       return;
     }
 
-    filtered.slice(0, shown).forEach((post) => list.append(postCard(post)));
+    filtered.slice(0, shown).forEach((post, index) => list.append(postCard(post, index)));
 
     const visible = Math.min(shown, filtered.length);
     countNode.textContent = `Showing ${visible} of ${filtered.length} post${filtered.length === 1 ? '' : 's'}`;
@@ -318,24 +318,44 @@ function renderPosts(data) {
   draw();
 }
 
-function postCard(post) {
+function postCard(post, index) {
   const card = el('article', 'card');
+  const isFeatured = index === 0;
+
+  if (isFeatured && post.thumbnail) {
+    card.classList.add('card-featured');
+  }
+
+  if (post.thumbnail) {
+    const imgWrap = el('div', 'card-image-wrap');
+    const img = el('img', 'card-image');
+    // Upgrade Blogger 72px thumbnail to crisp high-res image banner
+    const highResUrl = post.thumbnail.replace(/=s72(-c|-w\d+-h\d+-c)?/, '=w800-h450-c');
+    img.src = highResUrl;
+    img.alt = post.title;
+    img.loading = isFeatured ? 'eager' : 'lazy';
+    imgWrap.append(img);
+    card.append(imgWrap);
+  }
+
+  const content = el('div', 'card-content');
 
   const date = formatDate(post.published);
-  if (date) card.append(el('p', 'card-date', date));
+  if (date) content.append(el('p', 'card-date', date));
 
   const h3 = el('h3', 'card-title');
   h3.append(link(post.url, post.title));
-  card.append(h3);
+  content.append(h3);
 
-  if (post.excerpt) card.append(el('p', 'card-excerpt', post.excerpt));
+  if (post.excerpt) content.append(el('p', 'card-excerpt', post.excerpt));
 
   if (post.labels?.length) {
     const tags = el('div', 'card-labels');
     post.labels.slice(0, 4).forEach((l) => tags.append(el('span', 'tag', l)));
-    card.append(tags);
+    content.append(tags);
   }
 
+  card.append(content);
   return card;
 }
 
