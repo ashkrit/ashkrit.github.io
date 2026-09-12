@@ -17,8 +17,7 @@
     "blog": "https://ashkrit.blogspot.com",
     "github": "https://github.com/ashkrit",
     "linkedin": "https://www.linkedin.com/in/ashkrit/",
-    "twitter": "https://twitter.com/ashkrit",
-    "email": "ashkrit@gmail.com"
+    "twitter": "https://twitter.com/ashkrit"
   },
 
   "focus": [
@@ -54,11 +53,5 @@
     }
   ],
 
-  "education": [
-    {
-      "school": "Maharaja Sayajirao University of Baroda",
-      "degree": "TODO — degree and field",
-      "period": "TODO — years"
-    }
-  ]
+  "education": []
 }
