@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" data-theme-pref="system">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ashkrit Sharma — Engineering, systems &amp; AI</title>
+<meta name="description" content="Ashkrit Sharma — Senior Director of Engineering at Visa, Singapore. Writing on distributed systems, JVM performance, LLMs and agentic architecture.">
+<meta name="author" content="Ashkrit Sharma">
+<link rel="canonical" href="https://ashkrit.github.io/">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Ashkrit Sharma — Engineering, systems &amp; AI">
+<meta property="og:description" content="Senior Director of Engineering at Visa, Singapore. Writing on distributed systems, JVM performance, LLMs and agentic architecture.">
+<meta property="og:url" content="https://ashkrit.github.io/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>
+  // Set the theme before first paint so the page never flashes the wrong palette.
+  try {
+    var t = localStorage.getItem('theme');
+    if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t;
+  } catch (e) {}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark" aria-hidden="true">AS</span>
+      <span class="brand-text" data-profile="name">Ashkrit Sharma</span>
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#writing">Writing</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch colour theme">
+      <span class="theme-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ── Hero ─────────────────────────────────────────────── -->
+  <section id="top" class="hero">
+    <div class="wrap">
+      <p class="eyebrow">
+        <span data-profile="role">Senior Director of Engineering</span>
+        <span class="dot" aria-hidden="true">·</span>
+        <span data-profile="company">Visa</span>
+        <span class="dot" aria-hidden="true">·</span>
+        <span data-profile="location">Singapore</span>
+      </p>
+      <h1 class="hero-name" data-profile="name">Ashkrit Sharma</h1>
+      <p class="hero-tagline" data-profile="tagline"></p>
+
+      <div class="stats" id="stats">
+        <div class="stat"><span class="stat-num" id="stat-posts">—</span><span class="stat-label">blog posts</span></div>
+        <div class="stat"><span class="stat-num" id="stat-repos">—</span><span class="stat-label">open&nbsp;source repos</span></div>
+        <div class="stat"><span class="stat-num" id="stat-stars">—</span><span class="stat-label">GitHub stars</span></div>
+        <div class="stat"><span class="stat-num" id="stat-topics">—</span><span class="stat-label">topics written on</span></div>
+      </div>
+
+      <div class="hero-actions" id="hero-links"></div>
+    </div>
+  </section>
+
+  <!-- ── About ────────────────────────────────────────────── -->
+  <section id="about" class="section">
+    <div class="wrap about-grid">
+      <div class="section-head">
+        <h2>About</h2>
+      </div>
+      <div class="about-body">
+        <div class="prose" id="about-bio"></div>
+        <div class="focus">
+          <h3 class="focus-title">What I work on</h3>
+          <ul class="focus-list" id="focus-list"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Writing ──────────────────────────────────────────── -->
+  <section id="writing" class="section section-alt">
+    <div class="wrap">
+      <div class="section-head row">
+        <div>
+          <h2>Writing</h2>
+          <p class="section-sub">Longform notes from <a href="https://ashkrit.blogspot.com" target="_blank" rel="noopener">Are&nbsp;you&nbsp;ready</a> — systems, performance and, lately, what LLMs do to both.</p>
+        </div>
+        <a class="btn btn-ghost" href="https://ashkrit.blogspot.com" target="_blank" rel="noopener">Full archive&nbsp;↗</a>
+      </div>
+
+      <div class="filters">
+        <label class="search-field">
+          <span class="visually-hidden">Search posts by title</span>
+          <input type="search" id="post-search" placeholder="Search posts…" autocomplete="off" spellcheck="false">
+        </label>
+        <div class="chips" id="label-chips" role="group" aria-label="Filter by topic"></div>
+      </div>
+
+      <p class="result-count" id="post-count" role="status"></p>
+      <div class="cards" id="post-list"></div>
+      <div class="more-wrap">
+        <button class="btn" id="post-more" type="button" hidden>Show more posts</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Projects ─────────────────────────────────────────── -->
+  <section id="projects" class="section">
+    <div class="wrap">
+      <div class="section-head row">
+        <div>
+          <h2>Open source</h2>
+          <p class="section-sub">Code that goes with the writing — benchmarks, experiments and small libraries.</p>
+        </div>
+        <a class="btn btn-ghost" href="https://github.com/ashkrit" target="_blank" rel="noopener">All repositories&nbsp;↗</a>
+      </div>
+      <div class="cards repo-cards" id="repo-list"></div>
+      <div class="more-wrap">
+        <button class="btn" id="repo-more" type="button" hidden>Show more repositories</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Experience ───────────────────────────────────────── -->
+  <section id="experience" class="section section-alt">
+    <div class="wrap about-grid">
+      <div class="section-head">
+        <h2>Experience</h2>
+      </div>
+      <div>
+        <ol class="timeline" id="timeline"></ol>
+        <div id="education-block" hidden>
+          <h3 class="focus-title">Education</h3>
+          <ol class="timeline timeline-compact" id="education"></ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Contact ──────────────────────────────────────────── -->
+  <section id="contact" class="section contact">
+    <div class="wrap">
+      <h2>Get in touch</h2>
+      <p class="section-sub">Happy to talk about distributed systems, performance work, or where agentic AI actually holds up.</p>
+      <div class="contact-links" id="contact-links"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>© <span id="year"></span> <span data-profile="name">Ashkrit Sharma</span></p>
+    <p class="footer-note">Static site on GitHub Pages. Posts and repositories sync automatically.</p>
+  </div>
+</footer>
+
+<script type="module" src="assets/js/site.js"></script>
+</body>
+</html>

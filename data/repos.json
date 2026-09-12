@@ -1,0 +1,388 @@
+{
+  "source": "https://github.com/ashkrit",
+  "total": 38,
+  "repos": [
+    {
+      "name": "blog",
+      "description": "Java Performance",
+      "url": "https://github.com/ashkrit/blog",
+      "language": "Java",
+      "stars": 85,
+      "topics": [
+        "corejava",
+        "high-performance",
+        "low-latency",
+        "thread-pool"
+      ],
+      "pushed_at": "2023-09-29T22:07:04Z"
+    },
+    {
+      "name": "corejava",
+      "description": "Experiment with performance , concurrency , database and some useless things",
+      "url": "https://github.com/ashkrit/corejava",
+      "language": "Java",
+      "stars": 13,
+      "topics": [
+        "bigdata",
+        "concurrency",
+        "database",
+        "java",
+        "maven",
+        "nio",
+        "performance",
+        "sockets",
+        "streams"
+      ],
+      "pushed_at": "2026-06-28T10:26:35Z"
+    },
+    {
+      "name": "sparkmicroservices",
+      "description": "Microservices for Spark application",
+      "url": "https://github.com/ashkrit/sparkmicroservices",
+      "language": "Java",
+      "stars": 5,
+      "topics": [
+        "apachespark",
+        "microservice"
+      ],
+      "pushed_at": "2023-07-16T22:59:40Z"
+    },
+    {
+      "name": "sparkperformance",
+      "description": "Code samples for Spark performance",
+      "url": "https://github.com/ashkrit/sparkperformance",
+      "language": "Scala",
+      "stars": 4,
+      "topics": [
+        "distributed-systems",
+        "performance-tuning",
+        "spark"
+      ],
+      "pushed_at": "2019-10-06T14:18:09Z"
+    },
+    {
+      "name": "indexes",
+      "description": "Inmemory Index",
+      "url": "https://github.com/ashkrit/indexes",
+      "language": "Java",
+      "stars": 3,
+      "topics": [
+        "cache",
+        "indexes"
+      ],
+      "pushed_at": "2019-06-22T14:21:09Z"
+    },
+    {
+      "name": "dsl",
+      "description": "Domain Specific Language",
+      "url": "https://github.com/ashkrit/dsl",
+      "language": "Java",
+      "stars": 2,
+      "topics": [],
+      "pushed_at": "2020-08-11T11:40:59Z"
+    },
+    {
+      "name": "llmapi",
+      "description": "API and SDK for Popular commercial and open source LLM",
+      "url": "https://github.com/ashkrit/llmapi",
+      "language": "Java",
+      "stars": 1,
+      "topics": [],
+      "pushed_at": "2025-06-06T01:34:54Z"
+    },
+    {
+      "name": "nlp",
+      "description": "Natural Language Processing",
+      "url": "https://github.com/ashkrit/nlp",
+      "language": "Jupyter Notebook",
+      "stars": 1,
+      "topics": [],
+      "pushed_at": "2024-05-08T00:57:42Z"
+    },
+    {
+      "name": "rpcclient",
+      "description": "RPC Client API",
+      "url": "https://github.com/ashkrit/rpcclient",
+      "language": "Java",
+      "stars": 1,
+      "topics": [],
+      "pushed_at": "2024-04-22T01:40:56Z"
+    },
+    {
+      "name": "sbeplayground",
+      "description": "",
+      "url": "https://github.com/ashkrit/sbeplayground",
+      "language": "Java",
+      "stars": 1,
+      "topics": [],
+      "pushed_at": "2020-05-24T01:39:25Z"
+    },
+    {
+      "name": "osmonitor",
+      "description": "Samples for performance tuning  using OS tools",
+      "url": "https://github.com/ashkrit/osmonitor",
+      "language": "Java",
+      "stars": 1,
+      "topics": [
+        "performance"
+      ],
+      "pushed_at": "2018-05-05T17:27:07Z"
+    },
+    {
+      "name": "accord-collections",
+      "description": "Java collections with declared contracts. No null surprises, no hidden threading, no implicit behavior.",
+      "url": "https://github.com/ashkrit/accord-collections",
+      "language": "Java",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2026-03-15T13:59:32Z"
+    },
+    {
+      "name": "g1dqs14rfd",
+      "description": "",
+      "url": "https://github.com/ashkrit/g1dqs14rfd",
+      "language": "",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2026-03-15T11:20:39Z"
+    },
+    {
+      "name": "d4f8a2c1",
+      "description": "",
+      "url": "https://github.com/ashkrit/d4f8a2c1",
+      "language": "",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2026-03-15T11:19:22Z"
+    },
+    {
+      "name": "llmrestapi",
+      "description": "REST Spec inspired from  Model Context Protocol.",
+      "url": "https://github.com/ashkrit/llmrestapi",
+      "language": "",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2025-04-12T04:48:17Z"
+    },
+    {
+      "name": "llmpatterns",
+      "description": "LLM Usage patterns",
+      "url": "https://github.com/ashkrit/llmpatterns",
+      "language": "Java",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2025-03-06T08:34:59Z"
+    },
+    {
+      "name": "adwords",
+      "description": "",
+      "url": "https://github.com/ashkrit/adwords",
+      "language": "Java",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2024-10-20T09:44:57Z"
+    },
+    {
+      "name": "genai",
+      "description": "Generative AI",
+      "url": "https://github.com/ashkrit/genai",
+      "language": "Python",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2024-09-07T04:11:15Z"
+    },
+    {
+      "name": "vectors",
+      "description": "Vector databases",
+      "url": "https://github.com/ashkrit/vectors",
+      "language": "Java",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2024-03-24T03:32:10Z"
+    },
+    {
+      "name": "embedding",
+      "description": "Wrapper over various Embeddings Models and example of using embeddings",
+      "url": "https://github.com/ashkrit/embedding",
+      "language": "Java",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2024-03-14T11:59:50Z"
+    },
+    {
+      "name": "plugins",
+      "description": "IDE Plugins",
+      "url": "https://github.com/ashkrit/plugins",
+      "language": "Java",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2024-01-02T16:44:01Z"
+    },
+    {
+      "name": "flexidatastore",
+      "description": "API for flexible data store that can allow to perform CRUD operations by providing abstract data store",
+      "url": "https://github.com/ashkrit/flexidatastore",
+      "language": "Python",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2023-09-27T08:27:06Z"
+    },
+    {
+      "name": "nlpops",
+      "description": "Explore NLP Apps",
+      "url": "https://github.com/ashkrit/nlpops",
+      "language": "Python",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2023-09-24T05:45:22Z"
+    },
+    {
+      "name": "rustplayground",
+      "description": "Rust Learning experience",
+      "url": "https://github.com/ashkrit/rustplayground",
+      "language": "Rust",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2023-09-16T16:30:10Z"
+    },
+    {
+      "name": "systemdesign",
+      "description": "Explore system design concepts and examples",
+      "url": "https://github.com/ashkrit/systemdesign",
+      "language": "Java",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2023-07-23T04:02:36Z"
+    },
+    {
+      "name": "codesearch",
+      "description": "",
+      "url": "https://github.com/ashkrit/codesearch",
+      "language": "Java",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2023-06-13T22:56:16Z"
+    },
+    {
+      "name": "sketch",
+      "description": "",
+      "url": "https://github.com/ashkrit/sketch",
+      "language": "",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2023-06-03T10:20:00Z"
+    },
+    {
+      "name": "jobserver",
+      "description": "RESTfull API for general purpose Job server",
+      "url": "https://github.com/ashkrit/jobserver",
+      "language": "Java",
+      "stars": 0,
+      "topics": [
+        "java-8",
+        "jobserver"
+      ],
+      "pushed_at": "2022-11-15T23:48:36Z"
+    },
+    {
+      "name": "web",
+      "description": "",
+      "url": "https://github.com/ashkrit/web",
+      "language": "",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2022-10-11T00:36:55Z"
+    },
+    {
+      "name": "lets-rust",
+      "description": "Rust learning experience",
+      "url": "https://github.com/ashkrit/lets-rust",
+      "language": "",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2022-09-15T16:00:17Z"
+    },
+    {
+      "name": "propertytesting",
+      "description": "Samples of  Property based testing based on scala check",
+      "url": "https://github.com/ashkrit/propertytesting",
+      "language": "Scala",
+      "stars": 0,
+      "topics": [
+        "property-based-testing",
+        "scala",
+        "scalacheck",
+        "scalacheck-generators"
+      ],
+      "pushed_at": "2022-01-21T23:27:30Z"
+    },
+    {
+      "name": "machinelearning",
+      "description": "Examples of machine learning",
+      "url": "https://github.com/ashkrit/machinelearning",
+      "language": "Java",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2021-05-16T04:03:19Z"
+    },
+    {
+      "name": "photogroove",
+      "description": "Elm playground",
+      "url": "https://github.com/ashkrit/photogroove",
+      "language": "Elm",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2020-09-06T14:27:38Z"
+    },
+    {
+      "name": "letsgo",
+      "description": "Samples for GoLang",
+      "url": "https://github.com/ashkrit/letsgo",
+      "language": "Go",
+      "stars": 0,
+      "topics": [
+        "golang"
+      ],
+      "pushed_at": "2019-02-03T11:05:57Z"
+    },
+    {
+      "name": "mlplayground",
+      "description": "mlplaygroud",
+      "url": "https://github.com/ashkrit/mlplayground",
+      "language": "Scala",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2017-11-26T15:38:26Z"
+    },
+    {
+      "name": "jsfpexamples",
+      "description": "Javascript FP code samples",
+      "url": "https://github.com/ashkrit/jsfpexamples",
+      "language": "JavaScript",
+      "stars": 0,
+      "topics": [
+        "fp",
+        "javascript"
+      ],
+      "pushed_at": "2017-08-07T13:36:31Z"
+    },
+    {
+      "name": "scala-impatient",
+      "description": "",
+      "url": "https://github.com/ashkrit/scala-impatient",
+      "language": "Scala",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2015-03-30T14:41:47Z"
+    },
+    {
+      "name": "playground",
+      "description": "",
+      "url": "https://github.com/ashkrit/playground",
+      "language": "Java",
+      "stars": 0,
+      "topics": [],
+      "pushed_at": "2013-01-21T07:39:35Z"
+    }
+  ]
+}
