@@ -1,0 +1,63 @@
+{
+  "_note": "The only file meant to be hand-edited. Entries marked TODO could not be verified automatically — LinkedIn blocks scraping (HTTP 999). Fill them in or delete them; anything left as TODO is hidden from the rendered page.",
+
+  "name": "Ashkrit Sharma",
+  "role": "Senior Director of Engineering",
+  "company": "Visa",
+  "location": "Singapore",
+  "tagline": "Building scalable platforms, data-driven products, and the architecture underneath agentic AI systems.",
+
+  "bio": [
+    "I lead engineering teams that build payment platforms at scale — the kind where latency budgets are measured in microseconds and correctness is not negotiable.",
+    "For over a decade I have written at Are you ready about what actually happens inside systems: lock-free data structures, garbage collection, JVM performance, distributed databases and stream processing. More recently the writing has turned to LLMs and agentic systems — how they reason, where they break, and what they do to the economics of software.",
+    "Most of what I learn ends up in a blog post or a repository. Both are below."
+  ],
+
+  "links": {
+    "blog": "https://ashkrit.blogspot.com",
+    "github": "https://github.com/ashkrit",
+    "linkedin": "https://www.linkedin.com/in/ashkrit/",
+    "email": "ashkrit@gmail.com"
+  },
+
+  "focus": [
+    "Distributed systems & low-latency platforms",
+    "JVM performance, concurrency, lock-free design",
+    "LLM applications, RAG & agentic architecture",
+    "Data platforms and stream processing",
+    "Engineering leadership at scale"
+  ],
+
+  "experience": [
+    {
+      "role": "Senior Director of Engineering",
+      "company": "Visa",
+      "location": "Singapore",
+      "period": "Present",
+      "summary": "Leading engineering for payment platforms at scale.",
+      "current": true
+    },
+    {
+      "role": "TODO — previous role",
+      "company": "TODO — company",
+      "location": "TODO — location",
+      "period": "TODO — e.g. 2015 – 2020",
+      "summary": "TODO — one or two lines on what you owned and what shipped."
+    },
+    {
+      "role": "TODO — previous role",
+      "company": "TODO — company",
+      "location": "TODO — location",
+      "period": "TODO — e.g. 2010 – 2015",
+      "summary": "TODO — one or two lines on what you owned and what shipped."
+    }
+  ],
+
+  "education": [
+    {
+      "school": "Maharaja Sayajirao University of Baroda",
+      "degree": "TODO — degree and field",
+      "period": "TODO — years"
+    }
+  ]
+}

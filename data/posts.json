@@ -1,0 +1,2541 @@
+{
+  "source": "https://ashkrit.blogspot.com",
+  "total": 168,
+  "labels": {
+    "Low Latency": 9,
+    "Performance": 9,
+    "High throughput": 8,
+    "Distributed System": 7,
+    "Agile": 6,
+    "Concurrency": 6,
+    "TDD": 6,
+    "Apache Spark": 5,
+    "BigData": 5,
+    "CAS": 5,
+    "GENAI": 5,
+    "Inter Thread communication": 5,
+    "Java Reflection": 5,
+    "JDk8": 5,
+    "LLM": 5,
+    "Low Memory": 5,
+    "Software Development": 5,
+    "AI Agents": 4,
+    "Algorithms": 4,
+    "Clean Design": 4,
+    "GarbageCollection": 4,
+    "Go Lang": 4,
+    "Lockfree": 4,
+    "Machine Learning": 4,
+    "Anthropic": 3,
+    "Artificial Intelligence": 3,
+    "big data": 3,
+    "Clean Code": 3,
+    "Coding Agent": 3,
+    "Counter": 3,
+    "CPU cache": 3,
+    "data structure": 3,
+    "Distributed Database": 3,
+    "Dynamic Proxy": 3,
+    "Google": 3,
+    "Heap": 3,
+    "In-Memory": 3,
+    "Locks": 3,
+    "Logging": 3,
+    "MicroServices": 3,
+    "MultiCore": 3,
+    "Parallel Streams": 3,
+    "RAG": 3,
+    "Software Engineering": 3,
+    "Spark": 3,
+    "Streams": 3,
+    "Agentic Coding": 2,
+    "Agents": 2,
+    "AI": 2,
+    "AI Coding Agents": 2,
+    "avro": 2,
+    "better programmer": 2,
+    "Bitmap": 2,
+    "Coding Interview": 2,
+    "Collection": 2,
+    "Compiler": 2,
+    "ConcurrentHashMap": 2,
+    "Database": 2,
+    "DSL": 2,
+    "encoding": 2,
+    "Error Handling": 2,
+    "GPT": 2,
+    "IPC": 2,
+    "Java": 2,
+    "JMock": 2,
+    "JSON": 2,
+    "Key Value Store": 2,
+    "Latency": 2,
+    "Low Garbage": 2,
+    "MCP": 2,
+    "Memory": 2,
+    "MemoryMapped": 2,
+    "Merge Sort": 2,
+    "MethodHandle": 2,
+    "ML": 2,
+    "Model Inteligence": 2,
+    "nosql": 2,
+    "Perfomance": 2,
+    "Performance Tuning": 2,
+    "Query Engine": 2,
+    "SBE": 2,
+    "Semantic Search": 2,
+    "serializable": 2,
+    "Sorting": 2,
+    "Spark Performance": 2,
+    "Struct": 2,
+    "Threading": 2,
+    "Types": 2,
+    "Unit Test": 2,
+    "Unit Testing": 2,
+    "10X engineer": 1,
+    "Accumulator": 1,
+    "Active Investing": 1,
+    "Agent Patterns": 1,
+    "Agent Search": 1,
+    "Agent Test": 1,
+    "Agentic AI": 1,
+    "Agentic Commerce": 1,
+    "aggregated data": 1,
+    "AGI": 1,
+    "Agile 2.0": 1,
+    "Agile failure": 1,
+    "Aglie": 1,
+    "AI Economics": 1,
+    "AI Failures": 1,
+    "AI Strategy": 1,
+    "AI Systems": 1,
+    "AI TDD": 1,
+    "AL": 1,
+    "Amdahl Law": 1,
+    "Analytics": 1,
+    "andrej karpathy": 1,
+    "Anit pattern": 1,
+    "Anti pattern in testing": 1,
+    "Antropic": 1,
+    "Architecture": 1,
+    "Array": 1,
+    "AtomicInteger": 1,
+    "B+Tree": 1,
+    "backend": 1,
+    "Backend engineer": 1,
+    "Bad Code": 1,
+    "Bad Software": 1,
+    "Batch Update": 1,
+    "bigtable": 1,
+    "Binary Search": 1,
+    "BitCoin": 1,
+    "Bitwise": 1,
+    "BlockingQueue": 1,
+    "Bloom Filter": 1,
+    "Branching": 1,
+    "build": 1,
+    "Capacity Scheduler": 1,
+    "Case Class": 1,
+    "Chain of Though": 1,
+    "CheckedException": 1,
+    "ChoiceFormat": 1,
+    "Chronicle-Wire": 1,
+    "Circular Finance": 1,
+    "Claude Code": 1,
+    "Claude code leak": 1,
+    "Cline": 1,
+    "Code as data": 1,
+    "Code Review": 1,
+    "Coding agent System Design": 1,
+    "Coding Assistance": 1,
+    "Column Store": 1,
+    "compilation": 1,
+    "Complexity": 1,
+    "ConcurrentLinkedQueue": 1,
+    "ConcurrentSkipList": 1,
+    "Consistent Hash": 1,
+    "Context Engineering is Dead": 1,
+    "Context Management": 1,
+    "continuous delivery": 1,
+    "continuous integration": 1,
+    "Contract Based test.": 1,
+    "Copy on Write": 1,
+    "Core Java": 1,
+    "Cosine similarity": 1,
+    "COT": 1,
+    "CSV": 1,
+    "Dark Agile": 1,
+    "Data modeling": 1,
+    "Data Science": 1,
+    "Database engine": 1,
+    "David Thomas": 1,
+    "DeadLock": 1,
+    "Decision Cloning": 1,
+    "Decoding": 1,
+    "Deep Seek": 1,
+    "denormalization": 1,
+    "Dense Matrix": 1,
+    "Dense Vector": 1,
+    "Design": 1,
+    "Design Pattern": 1,
+    "Developer Productivity": 1,
+    "Developer Productivity.": 1,
+    "Developer Tools": 1,
+    "DirectMemory": 1,
+    "Disk Storage": 1,
+    "DiskSort": 1,
+    "distributed-systems": 1,
+    "Document Store": 1,
+    "Domain Specific Language": 1,
+    "DORA": 1,
+    "Dynamic Language": 1,
+    "Dynamic Type": 1,
+    "EasyMock": 1,
+    "Elon": 1,
+    "Embedded database": 1,
+    "Embeddings": 1,
+    "Embrace Change": 1,
+    "Engineering Economics": 1,
+    "Enum": 1,
+    "Epsilon": 1,
+    "Estimate": 1,
+    "ETL": 1,
+    "Executor": 1,
+    "externalizable": 1,
+    "Extract Transform Load": 1,
+    "Facebook Enginnering": 1,
+    "Factory": 1,
+    "Factory based API": 1,
+    "False Sharing": 1,
+    "fetch-add": 1,
+    "First Principal Thinking": 1,
+    "Flink": 1,
+    "followership": 1,
+    "ForkJoin": 1,
+    "Forward Deployed Engineer": 1,
+    "Friends": 1,
+    "Frontend engineer": 1,
+    "Function As Service": 1,
+    "Functional": 1,
+    "Future of Work": 1,
+    "GC": 1,
+    "GENAI Agile Manifesto": 1,
+    "GENAI Evolution": 1,
+    "GENAI Search": 1,
+    "Generative Ai": 1,
+    "Global Locks": 1,
+    "Go Lang Error": 1,
+    "Golang": 1,
+    "Golang concepts": 1,
+    "GraphRAG": 1,
+    "Groq": 1,
+    "Growth Team": 1,
+    "grpc": 1,
+    "Hackthon": 1,
+    "Harness Engineering is Next": 1,
+    "Hash Index": 1,
+    "hdrhistogram": 1,
+    "hedged-requests": 1,
+    "Histogram": 1,
+    "Hotspot": 1,
+    "HR": 1,
+    "Hugging face Attack": 1,
+    "Hyper Growth Team": 1,
+    "HyperLogLog": 1,
+    "IF-ELSE": 1,
+    "Immutable": 1,
+    "incremental build": 1,
+    "Index Fund": 1,
+    "Induced Demand": 1,
+    "Inference": 1,
+    "influence people": 1,
+    "infrastructure": 1,
+    "Innovation": 1,
+    "Innovation Center Failure. Cargo Cult.": 1,
+    "integer": 1,
+    "Interview": 1,
+    "Intrinsic": 1,
+    "Investing": 1,
+    "Java Performance.": 1,
+    "Java Streams": 1,
+    "JDk 12": 1,
+    "JDk11": 1,
+    "JDK17": 1,
+    "JEPA": 1,
+    "Jetty": 1,
+    "JHM": 1,
+    "Joy Inc.": 1,
+    "Kafka": 1,
+    "KeyWord Search": 1,
+    "Knowledge Graph": 1,
+    "Lamdba. Design Pattern": 1,
+    "larry Page": 1,
+    "Lazy Eval": 1,
+    "Learning": 1,
+    "LeCun": 1,
+    "Ledership": 1,
+    "Legacy code": 1,
+    "LevelDB": 1,
+    "LinkList": 1,
+    "Linux": 1,
+    "Llama": 1,
+    "LLM API": 1,
+    "LLM as Ghost": 1,
+    "LLM Broken reasoning": 1,
+    "llm clone": 1,
+    "LLM Examples": 1,
+    "LLM Java API": 1,
+    "LLM Patterns": 1,
+    "LLM Software": 1,
+    "LLM thinking": 1,
+    "LLM tools integration": 1,
+    "load-balancing": 1,
+    "Lock": 1,
+    "Lock Free": 1,
+    "Log4J": 1,
+    "Logback": 1,
+    "LogLog": 1,
+    "Lookup": 1,
+    "Low Memory Sort": 1,
+    "LSM": 1,
+    "Map": 1,
+    "Margin Call": 1,
+    "Mark Zuck": 1,
+    "Maven Plugin": 1,
+    "Mechanical sympathy": 1,
+    "memory alignment": 1,
+    "Memory Allocation": 1,
+    "memorylaout": 1,
+    "MergeSort": 1,
+    "Method Timing": 1,
+    "Micro benchmark": 1,
+    "Model Content Protocol": 1,
+    "Model Cyber Attack": 1,
+    "Monitoring": 1,
+    "Motivational": 1,
+    "multi-agent systems": 1,
+    "Myth on Coding Agents": 1,
+    "N-Way merge": 1,
+    "Nadella's": 1,
+    "Naive Bayes classifier": 1,
+    "New Year Resolution": 1,
+    "NIO": 1,
+    "NULL": 1,
+    "Nullpointerexception": 1,
+    "Object Pool": 1,
+    "Off-Heap": 1,
+    "Offheap": 1,
+    "Ollma": 1,
+    "Open AI": 1,
+    "OpenSource Model": 1,
+    "Optimization": 1,
+    "Optional": 1,
+    "Ordered": 1,
+    "ORM": 1,
+    "OS Tools": 1,
+    "Pair Programming": 1,
+    "Parser": 1,
+    "partitioning": 1,
+    "Passive Investing": 1,
+    "People": 1,
+    "Personal Help": 1,
+    "Pivot Sort": 1,
+    "Pointers": 1,
+    "Pragmatic Programmer": 1,
+    "pre aggregation": 1,
+    "Priority Queue": 1,
+    "Private Method testing": 1,
+    "probabilistic": 1,
+    "probabilistic algorithms": 1,
+    "Product": 1,
+    "Programming": 1,
+    "Progressive delivery": 1,
+    "Prompt Engineering is Dead": 1,
+    "Prompt Generator": 1,
+    "Query System": 1,
+    "Read Write Lock": 1,
+    "Reasoning": 1,
+    "Reasoning model": 1,
+    "Reasoning Models": 1,
+    "Reduce": 1,
+    "Refactor": 1,
+    "Refactoring": 1,
+    "Reflection": 1,
+    "Remote Procedure call": 1,
+    "Rendezvous Hashing": 1,
+    "Replication": 1,
+    "REST API": 1,
+    "REST MCP": 1,
+    "Retrieval Augmented Generation": 1,
+    "RocksDB": 1,
+    "RuleEngine": 1,
+    "rum-conjecture": 1,
+    "RunLocal": 1,
+    "saas": 1,
+    "Scala": 1,
+    "Scala Error Handling": 1,
+    "scalability": 1,
+    "Self Consistence": 1,
+    "Self Help": 1,
+    "Sentiment analysis": 1,
+    "Server less": 1,
+    "Service Interface": 1,
+    "Single writer": 1,
+    "Sketch": 1,
+    "SkipList": 1,
+    "slf4j": 1,
+    "slo": 1,
+    "Slotted Page": 1,
+    "SoftSkills": 1,
+    "SOLID Principal": 1,
+    "SortedSet": 1,
+    "SPACE": 1,
+    "Space data center": 1,
+    "Spark Internal": 1,
+    "Spark Memory": 1,
+    "Spark SQL": 1,
+    "Spark Testing": 1,
+    "Spark UI": 1,
+    "SparkUI": 1,
+    "Sparse Matrix": 1,
+    "SQL": 1,
+    "SSD": 1,
+    "SSL": 1,
+    "SSTable": 1,
+    "Stack": 1,
+    "Stand-in processing pattern": 1,
+    "State Machine": 1,
+    "Static Type": 1,
+    "Steve": 1,
+    "Stratified Sampling": 1,
+    "String": 1,
+    "String pool": 1,
+    "String Split": 1,
+    "Structural Retrieval": 1,
+    "Suffix Index": 1,
+    "Supervised learning": 1,
+    "Switch": 1,
+    "Synchronized": 1,
+    "system-design": 1,
+    "tail-latency": 1,
+    "TDD 2.0": 1,
+    "Teaching": 1,
+    "Tech Debt": 1,
+    "Technical Debt": 1,
+    "Test Framework": 1,
+    "Testing": 1,
+    "ThreadSafe Array Allocation": 1,
+    "TimeSeries DB": 1,
+    "Tokennomics": 1,
+    "TOPX query": 1,
+    "Tree": 1,
+    "True AGI": 1,
+    "TSDB": 1,
+    "Tuple": 1,
+    "Type Safety": 1,
+    "TypeSafety": 1,
+    "UglyServices": 1,
+    "Uinx": 1,
+    "Vector": 1,
+    "Vector database": 1,
+    "Vector Embeddings": 1,
+    "Verification Debt": 1,
+    "VisibleForTesting": 1,
+    "Wait Free": 1,
+    "Warren Buffet": 1,
+    "Yarn": 1,
+    "Yarn Rest API": 1
+  },
+  "posts": [
+    {
+      "title": "Machine for Killing Your Best Ideas",
+      "url": "https://ashkrit.blogspot.com/2026/08/machine-for-killing-your-best-ideas.html",
+      "published": "2026-08-08T22:14:14.746-07:00",
+      "labels": [
+        "Decision Cloning",
+        "GENAI"
+      ],
+      "excerpt": "You built a model of your executive’s judgment so you could pre-clear every idea before it reaches them. Take an executive whose yes or no gates everything, watch enough of their decisions, and fit a…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEjbdZ7S-8Qktup8uIYe5OrpHNZoZf2q_9reFlkLuzKdgbyxGKYBGJ-S7gUBfQFKTsO0hrbFF06UaF3orNtq9_3M6btJ39N94majI4R4rdl4gyAU8QNPw57NbtsE9qXHNrmNyg4zrdxLVvyxhdFOuEI_v0VFlotcb5sxBh82tqQ-pZStsvtrafNhlfCs6sR1=s72-c"
+    },
+    {
+      "title": "When Refusal Is Pointed In Wrong Direction",
+      "url": "https://ashkrit.blogspot.com/2026/07/when-refusal-is-pointed-in-wrong.html",
+      "published": "2026-07-24T21:15:53.621-07:00",
+      "labels": [
+        "Hugging face Attack",
+        "Model Cyber Attack"
+      ],
+      "excerpt": "You told the kid to ace the hacking exam Tell a kid to do the absolute best they can on a test. If the kid is clever enough, and you've left the answer sheet where it can be reached, you already know…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEjaoE6aIYupmOfutj60eh8MSIj4tEX0nszZDx1PhBIFuq0EB4Vgc_D5EUl97KE8EX3J0TwQG2-JdA0N_76So_pbeIqzjcXPtz0O0jwynD5N1l2e6je773U9HZJHJybHMh8LqUoJvEXMoFRX4BIbsX3DZPjPD8vto7Tu2e3xujlHd8_2XPtpeOpMtUa-7eOy=s72-w640-h269-c"
+    },
+    {
+      "title": "Arrow Flipped",
+      "url": "https://ashkrit.blogspot.com/2026/07/arrow-flipped.html",
+      "published": "2026-07-17T21:30:36.872-07:00",
+      "labels": [
+        "Model Inteligence",
+        "Nadella's"
+      ],
+      "excerpt": "In 2025, Satya Nadella said models were commodities and Microsoft owned the toll booth. In 2026, he says the models are eating everyone's moat. What changed wasn't his mind. It was contract. If…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEhRyk2J3iFfXvvbcbcFMOETeo3632Ce74a2oMRwoEuM2SCaJ9KbFeT9fFZEVXH7QssFXEUoRwEic7dAEf0qCGxiwua8IY5vxVNLgx1avgLBBwr_XYQve1cAI95JZ3zQt0NZ6EZ_Nino876PELgS-3hbFfsZV14BcCeEyu6kQLC3hzGC1W5zcTLJsR7LR4a0=s72-w640-h222-c"
+    },
+    {
+      "title": "Thinking behind thinking token",
+      "url": "https://ashkrit.blogspot.com/2026/06/thinking-behind-thinking-token.html",
+      "published": "2026-06-24T08:48:40.899-07:00",
+      "labels": [],
+      "excerpt": "You didn't buy reasoning. You bought compute — and the parts that work are the parts verifier checks. Open your last API bill for a reasoning model and read it like an itemized receipt. There's the…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEjt0rECs3LPwH-ocTap48Vk8vVLWQI58S6tDjl7cpz9vJEbDFXesBzrOcgiyPhIUhczfOeJNc4SuGdAMNvtNKGI8vgIIp8x4aZ8s_1vG9VlvmpTzKsmSQ8n36_W60lQtxXr12C_zrcGTfAwFtg0bNRAlu1Z-lApZkOulX4AbIJ5C0TtgwUIjMOTYzqt47Z4=s72-w593-h395-c"
+    },
+    {
+      "title": "Old Wine, New Bottle",
+      "url": "https://ashkrit.blogspot.com/2026/05/old-wine-new-bottle.html",
+      "published": "2026-05-26T21:07:07.174-07:00",
+      "labels": [
+        "Forward Deployed Engineer"
+      ],
+      "excerpt": "How AI companies spent billions rediscovering something TCS / Infosys / Accenture / Thought works figured out decades back — and why the pattern was always going to repeat. The AI industry loves a…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEitDo20nCNc4petOt-DMi6_Dn8cvGh7Fe8OeIw3MG6nr7uhmylviIRW52knXxypTVA0TUTdzO-OOSX3NdsJGmmI1J8K4Eqx7UMHWRFzGpl3bukjK2_sRpigD5ML6BXAOHJc5r6BQ_9MuEopdpvZTo0mXAD-ViYW5AFKCOJejODmrcYuVDHkOXfQQI1znH_m=s72-w640-h406-c"
+    },
+    {
+      "title": "From git clone to llm clone",
+      "url": "https://ashkrit.blogspot.com/2026/05/from-git-clone-to-llm-clone.html",
+      "published": "2026-05-10T03:12:03.668-07:00",
+      "labels": [
+        "AI Coding Agents",
+        "llm clone",
+        "saas"
+      ],
+      "excerpt": "No Software Is Safe When Linus Torvalds shipped the first version of Git in 2005, he solved the coordination problem of distributed software development. git clone became the foundational primitive…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEjru778jkgTnMJ9lGO5kYzOG4-EiTAJa6O28fYG-BZBbeAQa0HuG5EY2pWpvwZEwhR4QdOdZwOUvUcJtJDEl8_YJhBn3ikAswOPM_sn-YZu-ZHDUUZm76J9jNwUSv4xHo4e2EocktaTlxq9X7S7krzExFAQd3orMwD8K5aRM9LCHVj3vKg9Fm6B2np6ACFW=s72-w400-h365-c"
+    },
+    {
+      "title": "Building on Rented Ground",
+      "url": "https://ashkrit.blogspot.com/2026/05/building-on-rented-ground.html",
+      "published": "2026-05-02T06:31:13.334-07:00",
+      "labels": [
+        "Agentic Coding",
+        "Tokennomics"
+      ],
+      "excerpt": "On April 22, 2026, Anthropic changed a checkbox on a pricing page. No announcement. No email. No deprecation notice. Just a quiet edit — and overnight, Claude Code disappeared from the $20/month Pro…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEgjTzecO4EWspwolVp6uXhmq93iAqulVXDteOM_dcRD5LkoWUNP2jncZnMewRvS3KmRHYIsa97SXX0qNmFZGoD7pf2BSFqIKlJhYzrYQmF7sbp-4bV-_1QRzLrChfPHAKzh9F7zBDdtuwOWQJf-YizI5hnZRHuYVPz--MWTNGRh8M3hbAweit2hC5K7UiBG=s72-w640-h541-c"
+    },
+    {
+      "title": "Stop Reaching for Agents",
+      "url": "https://ashkrit.blogspot.com/2026/04/stop-reaching-for-agents.html",
+      "published": "2026-04-17T21:29:00.000-07:00",
+      "labels": [
+        "Agent Patterns",
+        "Agents",
+        "AI Agents"
+      ],
+      "excerpt": "Every week I see another team announce they're \"building an agent\" for a problem that a single well-written prompt would solve. A few weeks later, they're debugging a loop where the model keeps…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEi1C04bMiVclyPM3KdAHhbEDik1rY8kDTKEhAraU5_o-UWsEBmgvtxoXqA4dJek8owqx6JgNNZ1kj_Hd6Mx0RfLe1lWCHh8kJiGeK07SuDu3jdANM7vhNvxcRUUdytPPMl5sDFlPF3vhmOgjwsCvvBQmc8yXC9ZyNu3cjCSWQ6floL5rMuMRkfBATFBWhSf=s72-w640-h582-c"
+    },
+    {
+      "title": "Agents Don't Speak It",
+      "url": "https://ashkrit.blogspot.com/2026/04/agents-dont-speak-it.html",
+      "published": "2026-04-10T19:31:00.000-07:00",
+      "labels": [
+        "Agile",
+        "AI Agents",
+        "multi-agent systems",
+        "Software Engineering"
+      ],
+      "excerpt": "This is my continuation post of Broken promise of Agile and Agile Manifesto In Age Of Ai Agentic Software development world What happens to sprint planning, standups, retros, and bug reports when the…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEgFlKCv1n0zQ-H4lfDEmMtQRd344xGoI0iH2NiL-cxDglZBCCbBu8LguwOyDqWCa48DpyA7Ueku0sJicuoX1cwZWcXongF6s7pAo-U33n58vhPxLGixTFgxLF6jHaDjj-qWyrQMu-jVqES7KUn3-i9JlFwiRLrFTz8UJii4BKpEsX_-GS7-gMS-6PHGmqF7=s72-w640-h340-c"
+    },
+    {
+      "title": "Great Claude Code Leak  and Under the hood - Claude code  | Codex | Gemini",
+      "url": "https://ashkrit.blogspot.com/2026/04/lets-see-all-agents.html",
+      "published": "2026-04-03T20:19:00.000-07:00",
+      "labels": [
+        "Claude code leak",
+        "Coding agent System Design"
+      ],
+      "excerpt": "Accidental leak of the Claude Code source code on April 1, 2026, has provided an unprecedented look into Anthropic's agentic architecture. With thousands of mirrors now circulating online, the…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEhb3aExdT3S07eXtjwcJMfH4gd0h7JphNyMvzRpsstpiba61U911llYc-vGV3D88wbU8vkq4aPmTMBpyJzl_xkwBWd6VnN3YXPoZKoBDA1z7SbB_JJ9QLAAMDht2O1KB6RGZ8CRgYSxrtqjjlw482lGMobpVQlS9x5vX_DWAOFaZeP8DNYXDMMDfZLGsKCv=s72-c"
+    },
+    {
+      "title": "AI Engineering Terms You Will Memorize and then forget",
+      "url": "https://ashkrit.blogspot.com/2026/04/ai-engineering-terms-you-will-memorize.html",
+      "published": "2026-04-02T19:02:00.000-07:00",
+      "labels": [
+        "Context Engineering is Dead",
+        "Harness Engineering is Next",
+        "Prompt Engineering is Dead"
+      ],
+      "excerpt": "LLM era has a reliable product cycle: someone coins a term, someone more famous endorses it, the internet credits the endorser, and LinkedIn does the rest. Cycle is embarrassingly simple We have done…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEiBlWhTdFPu3JnlxLm8brJ4Vf5YwwLy-v3qWMH6hqB2HBz0nrbRh9b26t6dM-LUfWe1oVPWXcoUSB69VH-oLpfkkgTRUEx8hYypeahhwIAf2MBcfv--x8GbATgRxu9vMtfKfB6GA3-y59HKZ00Tft_I8al8eEdN_tLhIgsr7u9ny7IuO8byhHeU_RSbZKmW=s72-w640-h336-c"
+    },
+    {
+      "title": "Similarity is not Relevance",
+      "url": "https://ashkrit.blogspot.com/2026/03/similarity-is-not-relevance.html",
+      "published": "2026-03-27T19:37:00.000-07:00",
+      "labels": [
+        "AI Failures",
+        "AI Systems",
+        "GraphRAG",
+        "Knowledge Graph",
+        "LLM",
+        "Machine Learning",
+        "RAG",
+        "Retrieval Augmented Generation",
+        "Semantic Search",
+        "Software Engineering",
+        "Structural Retrieval",
+        "Vector Embeddings"
+      ],
+      "excerpt": "There is a subtle confusion baked into every LLM-powered system in production today, and it is responsible for a larger fraction of failures than most teams realize. The confusion is this: we have…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEger2iWC2JsPukU1tTzyeN4ss5zNLDUk_8QaDrH5SL--8uPXzRwIsPuRMFUd_TgfWj3m-gwIKdj-FxRp_RMx24i3DclZnLalyX51fPF_MLuO81u5POCu3_0dm28hVxiTMyUe9KA8D-4XFGkGG6cryWxNWfT-7MVv-5AQ0KToovR5hjj4Mdj3Co754X3ehCe=s72-w640-h320-c"
+    },
+    {
+      "title": "Induced Demand Loop: Anthropic Sells You the Problem, Then the Solution",
+      "url": "https://ashkrit.blogspot.com/2026/03/induced-demand-loop-anthropic-sells-you.html",
+      "published": "2026-03-22T20:22:23.869-07:00",
+      "labels": [
+        "Agentic AI",
+        "AI",
+        "AI Strategy",
+        "Anthropic",
+        "Claude Code",
+        "Code Review",
+        "Developer Tools",
+        "Engineering Economics",
+        "Future of Work",
+        "Induced Demand",
+        "LLM",
+        "Programming",
+        "Software Engineering",
+        "Technical Debt",
+        "Verification Debt"
+      ],
+      "excerpt": "Anthropic built Claude Code to write your software. They have done awesome job to make it the most preferred agentic coding tool. It makes sure that you generate best code at first time or with…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEjSYUktjxUWcw-bSGo1p0G2gOEWN_aBY7cRkkmEwwfaYJo7aoTL4c4dQ6uUzjgcOtfnStWmEGfYewly06IbvYPSSia17RZQ8RFgsEkYvcoSn5vwSwHqKZRRpkEMDBYGfGTci5EkfQOm2UunLcxNQBPJvv4aASeemArDuB3XE6beQuAAIKI3XaXLxUOb5XEi=s72-w569-h425-c"
+    },
+    {
+      "title": "The Tail at Scale",
+      "url": "https://ashkrit.blogspot.com/2026/03/the-tail-at-scale.html",
+      "published": "2026-03-13T21:13:00.000-07:00",
+      "labels": [
+        "backend",
+        "bigtable",
+        "distributed-systems",
+        "Google",
+        "grpc",
+        "hedged-requests",
+        "infrastructure",
+        "Latency",
+        "load-balancing",
+        "MicroServices",
+        "Performance",
+        "scalability",
+        "slo",
+        "system-design",
+        "tail-latency"
+      ],
+      "excerpt": "When engineers talk about latency, they almost always talk about average latency. P50. The median experience. It's a comfortable metric — it responds to optimization, it's easy to visualize, and it…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEjst3RpJMwG1oqzFBLP7CfwF-Ae0-kmguHOTLZAYMTbP2hawnPM9jrA6hmyQpXkWhq5BrGKM-crKQKxGxbM2n8FqMtJaZjTWgnMDyVjXnfJnGXXK4WkU63ND9lXaIVy2ttKVG-2IY9tkBriWKn4lI69hQd8Qe3TDHG7k0P6LF4GpifXVRzCty-Y0T244m6t=s72-w640-h364-c"
+    },
+    {
+      "title": "Nobody Bought It For You",
+      "url": "https://ashkrit.blogspot.com/2026/03/nobody-bought-it-for-you.html",
+      "published": "2026-03-13T20:09:00.000-07:00",
+      "labels": [],
+      "excerpt": "Why the AI your company just mandated was designed for a boardroom slide, not your workflow — and how the whole machine keeps spinning. There's a moment every knowledge worker knows. You open the new…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEjdpsixmykSfKFSm7RQC17k7-tc_m0jK5c7HwwFwDTpg9ViWXE64iQPWuMbl4LPFUxLpDUDp0qxwoKJ-zQllSKxYkxpzgq4vFSybBPWGIZE0UecVbCVAb8jope3fR7F4WQJeTmMxqzjNwwJR5QErLucEKeRJUXRzqxB9tEmh4_gwm7o3Ujr0Oymrvm3CEPj=s72-w396-h396-c"
+    },
+    {
+      "title": "Mechanical Sympathy 2.0: From Software Tuning to Model-as-Silicon",
+      "url": "https://ashkrit.blogspot.com/2026/02/when-model-becomes-machine.html",
+      "published": "2026-02-25T17:01:00.000-08:00",
+      "labels": [],
+      "excerpt": "A Toronto startup called Taalas hardwired an LLM into transistors and got 16,000 tokens per second. That number sounds like a benchmark. It's actually a paradigm shift hiding in plain sight. Every…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEiAMYerEDppKCKzrHLBSdm7CPc4FCZMoEgEX-jJAgNPeOZ1Su31h1ImMLjikNuvQifN2HqJWMvqLbHE0T6tVzDVF4QGmTNTZrLsvCkQd9cq5gIkT1qHougyxDWjwr7GsYlGCkXQHraqMVNRjArDHl6Bj6lKoS61jOMDwhPKbhC9DGbqPyiOOwT8denPcVMw=s72-w301-h451-c"
+    },
+    {
+      "title": "No One Builds a Search Engine in a Weekend",
+      "url": "https://ashkrit.blogspot.com/2026/02/no-one-builds-search-engine-in-weekend.html",
+      "published": "2026-02-17T21:03:00.000-08:00",
+      "labels": [],
+      "excerpt": "A solo developer spent a weekend building an AI agent. Two million people used it within weeks. OpenAI and Meta immediately came knocking. Try imagining this story with Google Search. You can't…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEjTTUNrfCq97Kax6BnlHcYWNPzPvkt02qjWEO-WoXi5W1mC9KXdBveyfkuUV8LObm1KuOr847eOEhfx79a2k2e60qkdVxq49tpn5KpqYGn-nTUy3L81_lRJFmXzpjj5zjjeUetxTe5aOsbNttqtWJxFmJuyOUEJ9aCT8m23aTGDnD09dpMNlwTkTvXNXDqP=s72-w640-h454-c"
+    },
+    {
+      "title": "Blind Spots in Anthropic's Agentic Coding Report",
+      "url": "https://ashkrit.blogspot.com/2026/02/blind-spots-in-anthropics-agentic.html",
+      "published": "2026-02-11T17:32:00.000-08:00",
+      "labels": [
+        "Agentic Coding",
+        "Anthropic"
+      ],
+      "excerpt": "Anthropic's 2026 Agentic Coding Trends Report documents a real shift in how software gets built. The data from Rakuten, CRED, TELUS, and Zapier shows engineers increasingly orchestrating AI agents…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEgehRsjbcyB9fKtHg-iptelvCtTlnaoEqvj5-ERCr28_jIF8niE6LNX1R3ZnZH0VkY2Z7x9AQBJJIHeBCM41bTpnUOGUrGuIkIK2XLdNcktm6dY0fFjciwPDhMSp2k36bCWGqwOzIXRyduUIzco580edD4Azib8yIVcOMuKXRWDA6mtSB7weKs4QvMDNJyu=s72-w640-h565-c"
+    },
+    {
+      "title": "Why Your AI Coworker Will Never Understand Your Code",
+      "url": "https://ashkrit.blogspot.com/2026/01/why-your-ai-coworker-will-never_28.html",
+      "published": "2026-01-28T06:38:00.000-08:00",
+      "labels": [
+        "andrej karpathy",
+        "JEPA",
+        "LeCun",
+        "LLM as Ghost"
+      ],
+      "excerpt": ".blog-post { font-family: Georgia, 'Times New Roman', serif; line-height: 1.7; color: #333; } .blog-post h2 { font-size: 1.5em; margin-top: 1.5em; margin-bottom: 0.5em; color: #2a2a2a; border-bottom…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEjbIUIDR_Y7qZam7c8j0-ORazb6KsUg9XsBChN_6s5PhFG2-lmSagKwduv2-PhEySXzpGxeeffwfI0KbthtLd1e4GAGIE1egirCTaYJyjV8Fxv1CMBymsI1bjonk9ZEz6wFYI1gLtbqhEGHKo3oB_kHHvjLGkwmUQURxbwHnzRU5oYhVS4n25_gSYMbBSrO=s72-w640-h422-c"
+    },
+    {
+      "title": "Intelligence has become Commodity",
+      "url": "https://ashkrit.blogspot.com/2026/01/intelligence-has-become-commodity.html",
+      "published": "2026-01-23T17:06:00.000-08:00",
+      "labels": [
+        "AGI",
+        "Model Inteligence"
+      ],
+      "excerpt": "Why Apple's $1B Intelligence Rental Is Actually Brilliant Apple recently announced they're paying Google approximately $1 billion annually to power Siri with Gemini. It might looks like Apple…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEigRQa5ITtHTbcwGqgYZEHeqEOOLSSHCeNnzi6ongS8q98pwC9234_solRNyZMKJf7jUYxDu_1WQ0F44UOaFTNbJ0d2JXgOnUIKgjznj4ps0KGkxreNdyz9ExhWAwiEjQzMROuOi8lIEg4qD3wt-ivYppHR6MFuG7coH1tjc8z4mTlHF_tYmg3zW56EYnsq=s72-w640-h406-c"
+    },
+    {
+      "title": "Audacious Plan to Train AI in Space",
+      "url": "https://ashkrit.blogspot.com/2026/01/audacious-plan-to-train-ai-in-space.html",
+      "published": "2026-01-15T16:41:00.000-08:00",
+      "labels": [
+        "Distributed System",
+        "Space data center"
+      ],
+      "excerpt": "What happens when humanity's appetite for artificial intelligence outpaces our planet's ability to feed it? Someone decided the answer was \"leave the planet.\" In December 2025, something delightfully…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEgv-vULQx6fJs4slqETKYYxJbQxxoll69vt-7nl8stxMSEMBT2uKhUZi2-0OdFsJQbPIx0qj0xAL7X97SYVab5KVL4ttDM_MAoLH6VVyDaOlrbHPK4BsMD3Im5_OP3ZDnrU3sf4KLdEmmznMgSnB0A3_RZWVWJCDSeb80vARsrQkEbF9G-TSN5uzXK31uYR=s72-w640-h525-c"
+    },
+    {
+      "title": "The Circle Game: Why Everyone's Wrong About AI's Circular Finance",
+      "url": "https://ashkrit.blogspot.com/2026/01/the-circle-game-why-everyones-wrong.html",
+      "published": "2026-01-08T17:10:00.000-08:00",
+      "labels": [
+        "AI Agents",
+        "Circular Finance"
+      ],
+      "excerpt": "Financial press is filled with panic attack about \"circular finance\" in AI. Nvidia invests in OpenAI, OpenAI buys Nvidia chips. Microsoft funds Anthropic, Anthropic rents Microsoft Azure. Oracle…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEhHf2T866FEae12mnTZw2CbHP6QlM4QA6nHV36Y7KUwz7cljOliyAUOM-VbFWYXxiI8lTQFGtZC7uBPYshjExmM5pzLK1Ly4gvfghCg1Rrw9lSwweawcPuyMeV9dBjaSICqe3O8lAnbazmQbO3i3cfS4qwbE0PYNSAxOoSkvEG0vo_riVUjDs_4iE8qI8-c=s72-w640-h482-c"
+    },
+    {
+      "title": "Agentic Commerce War - Car with bumpy roads",
+      "url": "https://ashkrit.blogspot.com/2025/11/agentic-commerce-war-car-with-bumpy.html",
+      "published": "2025-11-13T06:36:00.000-08:00",
+      "labels": [
+        "Agentic Commerce",
+        "AI Agents"
+      ],
+      "excerpt": "There's a lawsuit that should make every engineer building AI applications pause and think carefully about the world they're creating. Amazon is suing Perplexity AI, and while the legal complaint…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEivgUOawU2Wlc_YPiyaxpogae0Ki7O8hq8uP6TO5lGgDGjH3gJgFpLJ67Fo9ydPqn0GCVN6NQR0v1Ez7QESDmYIO6q3ofLiCYFndCuaK_WnDuUa_jDLnHt3pkVDxbLDE_Q5h0-C-kM1RQFbukeGRWVZ0WhER51RIU5v8y1bEnpGTvxqRwE2NXf3HuHTsvPV=s72-w640-h360-c"
+    },
+    {
+      "title": "Memorization Machine:Why AI Coding Agents Aren't Really Programming Yet",
+      "url": "https://ashkrit.blogspot.com/2025/10/memorization-machinewhy-ai-coding.html",
+      "published": "2025-10-24T21:58:00.000-07:00",
+      "labels": [
+        "AI Coding Agents",
+        "Myth on Coding Agents"
+      ],
+      "excerpt": "This is further exploration and sharing of experience of using Coding Agents tool. You can read some of old post cline next generation autonomous-coding amdahls-law-and-myth-of-10x-developers If you…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEgWDDDVSUje7iVl8RTZRh3CPUEXo2IH2tC0kKkJHrqZvBnNMEcxdjSraVQXwNF3GSgoNlrFrcme9P7QmT_JkRHgZikKr4PM18WJRTjUMZbQIEmTylQTG0WUipVTBDkGZLqgLaBWR4DkXFt9YPbnt_tcLn2yErjF8dVmTz9pQgD_5ms8tqs7T4QMSpTXY-St=s72-w640-h358-c"
+    },
+    {
+      "title": "Impossible Dream: How facebook $85 Server Conquered Half the Planet",
+      "url": "https://ashkrit.blogspot.com/2025/07/impossible-dream-how-facebook-85-server.html",
+      "published": "2025-07-23T06:02:00.000-07:00",
+      "labels": [
+        "Distributed System",
+        "Facebook Enginnering"
+      ],
+      "excerpt": "Story of engineering excellence in the age before clouds, and the distributed computing lessons that changed everything You can read this POST with AI also ChatGpt Perplexity Claude Chapter 1: The…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEgDd_wE6v0WtLQS2JivzLP1tl50PAJr3L7uV5kCDqZMzGMYmWjGUuxFEU_LiQfIbXDMdk2-m4VDRCTf-jsDJM260mlwT1DZREgMIObFBoH2iGTnDbvj75gBfoV-67OtIoW7Gg67OAkA6-t4f-nFZ2MFszarmU6kdcC9Gr36JskrKPltlYwsArqe_k9TcpmV=s72-w640-h437-c"
+    },
+    {
+      "title": "Death and Resurrection of Test-Driven Development",
+      "url": "https://ashkrit.blogspot.com/2025/07/death-and-resurrection-of-test-driven.html",
+      "published": "2025-07-12T21:10:00.000-07:00",
+      "labels": [
+        "Agent Test",
+        "AI TDD",
+        "TDD 2.0"
+      ],
+      "excerpt": "The Death and Resurrection of Test-Driven Development: How AI Agents Are Creating TDD 2.0 What happens when you give an army of AI agents the power to write, run, and evolve tests faster than any…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEjZ0u4612iTV0tdJe_2lMNjSsfveq1OwNsyoPVL2f8HQK-xu7pDms5HYSQ3LNrz-1rh3RG7Vw8DeDloDRpn-3ePq9KMRhXULYUiUeJJnkDYEozEWhnffV3TKs8ahBI4v2LBHd7tw3X9Ig62OwbRQNWGKU-wxL7KXHQ4sQi-s7guvzvdhniY-B39vDK1y9DN=s72-w640-h537-c"
+    },
+    {
+      "title": "Applying SOLID Principal to LLM System Design",
+      "url": "https://ashkrit.blogspot.com/2025/07/applying-solid-principal-to-llm-system.html",
+      "published": "2025-07-05T02:58:00.000-07:00",
+      "labels": [
+        "LLM Software",
+        "SOLID Principal"
+      ],
+      "excerpt": "Remember when you first discovered Large Language Models? The excitement! The possibilities! You probably built something amazing in a weekend, shipped it, and felt like a genius. Then reality hit…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEgrHV83epbYTLjTghDmuP3svWYqd6sl77rW5BytVXlFFTvMGTX93jTCgGR7FJFikE4Vz7Kk5jQQ-GJCGlQfk1bqLZBxVlhDj4F8uBaET5k0IFxejdIgJ4e5pReLXRT13mthNSXfF2dUx5F3M5VqBnJGgWMQCPdsHMynbr46IMwPUjNBN2siQjGha084OcPb=s72-w640-h310-c"
+    },
+    {
+      "title": "Bitcoin Distributed Systems Masterpiece",
+      "url": "https://ashkrit.blogspot.com/2025/06/bitcoin-distributed-systems-masterpiece.html",
+      "published": "2025-06-20T23:49:00.000-07:00",
+      "labels": [
+        "BitCoin",
+        "Distributed System"
+      ],
+      "excerpt": "On October 31, 2008, amid a global financial crisis, an anonymous figure named Satoshi Nakamoto quietly published a nine-page paper that would revolutionize not just finance, but the entire field of…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEiy1dT4GJYPNLmq7qwAKaMyoz1faOpt50UKPNO-OeIsCVROqxsnW4g3ffRBR0X93FCNlDXNfGyW3sk8EBrneQ4H7TO_0va2Gtx6uXQ1eqUm3E1T7jM702Jhf0UwSuaUii7I7l5_dqFUMuj6VxMkra2MTI6tVoMZpMiRw73PmswWTpflDXF0H5JkoiREqDhY=s72-w640-h408-c"
+    },
+    {
+      "title": "AI Economics Paradox",
+      "url": "https://ashkrit.blogspot.com/2025/06/ai-economics-paradox.html",
+      "published": "2025-06-15T18:21:00.000-07:00",
+      "labels": [
+        "Agents",
+        "AI Economics",
+        "Inference"
+      ],
+      "excerpt": "Why Getting Cheaper is Getting More Expensive AI is creating the most capital-intensive technology race in history We're living through one of the most counterintuitive economic phenomena in tech…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEjtkk1_VmvhTIGPkF7ut7gvB7Y0_4mBT8JbliEm9m6TgNw9FrmJ8JsrvlkgQAhuEvUuY1-gt8B8GenzziNzXBKI_3vMUFPGMzsFROeJRjL-YqR_7q-nWXYNPSzcrhgWwbALOlMOcgmlHg9jCUF3W3TK2ttkWphI-vYb_DI35aQDGHMyn5OsEsPnmsCpsczH=s72-w640-h302-c"
+    },
+    {
+      "title": "Agile Manifesto in the Age of AI",
+      "url": "https://ashkrit.blogspot.com/2025/06/agile-manifesto-in-age-of-ai.html",
+      "published": "2025-06-15T18:12:00.000-07:00",
+      "labels": [
+        "Agile 2.0",
+        "GENAI Agile Manifesto",
+        "Software Development"
+      ],
+      "excerpt": "Reimagining Software Development for the Era of Generative Intelligence How the foundational principles of Agile development are being transformed—and challenged—by AI-powered coding assistants and…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEiWDPStcVFBtyhcyXZch-qJMKi0z9FhuWwIBgNB2d24Dd2jSP8ixXYv90V3jMzvI3pna415B61GJEl_QZSYSzM39-W7SYIX5b5X-HKbICaZWxLW0Q0iSTc0VfR92T2QgmmlRy5vcE64c9LjATHthF6sOXyACl6zAOD9r43Th9Dd8mKzr06O_vH44r6E-IXo=s72-w640-h434-c"
+    },
+    {
+      "title": "RAG vs Non-RAG Coding Agents",
+      "url": "https://ashkrit.blogspot.com/2025/05/rag-vs-non-rag-coding-agents.html",
+      "published": "2025-05-30T21:47:00.000-07:00",
+      "labels": [
+        "Coding Agent",
+        "Generative Ai",
+        "RAG",
+        "Reasoning model"
+      ],
+      "excerpt": "Every time a developer asks an AI coding assistant to generate code, they're initiating a search process. But the question isn't whether search happens—it's where and how that search occurs. Search…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEjYdArfSIA1chmzMrP9a1j530GNAxeJhlAD9i8Kqx_LiQ9dkqAEVf3wCQ6CMd5QA4hOAMpoRj5kjmcEtP2gMs5SWHjkkJrCz3UtWUw7erEpbcG6egtFkoZpoDYUSHdrdjr9j4wD6E5zz83RVQc5gDYTWCmllKWaEOOPf7GrGDNmjZVOep7cBF3MHMgqcq5K=s72-w640-h354-c"
+    },
+    {
+      "title": "Ages of Search: From Commands to Conversations",
+      "url": "https://ashkrit.blogspot.com/2025/05/ages-of-search-from-commands-to.html",
+      "published": "2025-05-27T02:15:00.000-07:00",
+      "labels": [
+        "Agent Search",
+        "GENAI Search",
+        "KeyWord Search"
+      ],
+      "excerpt": "Imagine you need to get from Los Angeles to New York to visit your sister, but you're on a tight budget. How would this conversation play out across three decades of search technology? 1995 - The…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEi0vF38n8fKsYw5ZLKPl8XK5AfxndCN6hnxIfZrdNyQBiSWK-2aL838_kgXrdnzOBWo8My5TuXR6K7WEgJ41bQrUWUb5k78nZAwi-0vLIRAVqZ9RTOjMjvomUgai4lXds5C7JuJrxPsaTs1z9bH5g4opOIkuHxIS9cyo-UY0aOXS-VGYUPyvR5EvHN2H12d=s72-w640-h446-c"
+    },
+    {
+      "title": "Amdahl's Law and the Myth of 10x Developers in the AI Age",
+      "url": "https://ashkrit.blogspot.com/2025/04/amdahls-law-and-myth-of-10x-developers.html",
+      "published": "2025-04-21T08:24:00.000-07:00",
+      "labels": [
+        "Amdahl Law",
+        "Coding Agent"
+      ],
+      "excerpt": "In the rapidly evolving landscape of software development, we're witnessing a surge in AI coding assistants and the eternal pursuit of the \"10x developer\" — those mythical engineers who can produce…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEhuOVPjclZakF4iTZZanI9AeBO0EZGeJqnS3dHgvleCp_pEwaLvcZSeZNG8TfF6Po9p-Pkrrjdni7-VD6WaEGY-VOrqnNDwA9snt47DR9V7LTn4PQ4WzyZvttXVkjeKE3sR0DE6ntgAJrAHjF9DWYrHtNgjoOHU8DcgIduowIiCUL-f_boXgACieAiv-8Ff=s72-w640-h482-c"
+    },
+    {
+      "title": "From Interpolation to Invention  -  Evolution of Generative AI",
+      "url": "https://ashkrit.blogspot.com/2025/04/from-interpolation-to-invention.html",
+      "published": "2025-04-13T18:46:00.000-07:00",
+      "labels": [
+        "GENAI Evolution",
+        "True AGI"
+      ],
+      "excerpt": "In the rapidly evolving landscape of artificial intelligence, understanding the concepts of interpolation, extrapolation, and invention provides a useful framework for assessing the current…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEiDBGxT-sHVJLtB_kyZGTkDRmCvyg5bkvYNim68UBTZ5rxG1FggdliwUqVn9ChJQELkKit76F42WfCSmlexitALcCpzGOeohLhpXW35QYAdkymfQhjcjoKSEFTKnzWi2fVkJkyV506kNRpd5z2Uqr200RsGFXvzIbDPuwVQae7jOVtNmC_w7VmGeOR9wsyr=s72-w640-h480-c"
+    },
+    {
+      "title": "Cline - The Next Generation Autonomous Coding Agent",
+      "url": "https://ashkrit.blogspot.com/2025/04/cline-next-generation-autonomous-coding.html",
+      "published": "2025-04-13T09:55:00.000-07:00",
+      "labels": [
+        "Cline",
+        "Coding Agent"
+      ],
+      "excerpt": "In recent years, we've witnessed remarkable advancements in AI systems designed to assist with programming tasks. While early code completion tools offered modest assistance, today's AI coding…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEiRPNKMPH6Qw_eKzBiAovFGBt9nT6k7WU_nsUMhm0DmV6zsN2ixRw46PIs75jNc5JpDX0NZ3W_yYktlf8u3M4ZowFV2-ahnfDTNhRVnxIhYfl78Wm4sthWflU8pz9XO3Bk-u43FM1SCOP-vXr5O_gTA8R8wJ6HXhlk6eW5a_xvVywRFhM0zWDxFH_w0QAQU=s72-w640-h493-c"
+    },
+    {
+      "title": "Reimagining the Model Context Protocol",
+      "url": "https://ashkrit.blogspot.com/2025/04/reimagining-model-context-protocol.html",
+      "published": "2025-04-11T21:54:00.000-07:00",
+      "labels": [
+        "LLM tools integration",
+        "MCP",
+        "REST MCP"
+      ],
+      "excerpt": "This is follow up post after my first blog on model context protocol The Model Context Protocol (MCP) has been instrumental in connecting AI models to real world via (tools,resources etc) , but what…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEhx0IQ5Aw_S24XLnUyTuE0aq8hUExi3FNmYHiF8gu3ZHDZu9x2ZSKKKd-DOj3xamF27S3OX6Vp_I-tSoASrYwQXvDQ06ntuQ9Jj0Ymam7poi3T3NQMwxngYFY1FlpQbNBQToE3ewMUZZUMEW_mlzizAgwxQ7VfIat9-GMSJxYEGivpkq4eeQF5HIZ-O3tQD=s72-w640-h494-c"
+    },
+    {
+      "title": "Model Context Protocol - Old wine in new bottle",
+      "url": "https://ashkrit.blogspot.com/2025/04/model-context-protocol-old-wine-in-new.html",
+      "published": "2025-04-11T21:22:00.000-07:00",
+      "labels": [
+        "LLM",
+        "MCP",
+        "Model Content Protocol"
+      ],
+      "excerpt": "Inspirations Behind the Model Context Protocol Model Context Protocol appears to draw inspiration from several established protocols and architectural patterns in software engineering. Some of the…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEhR27EsxVurB7VrytvDdfx69icC9v-UFjOV_OxO8plHYlwvMUn3urBk0DWdNWK25dEyIF-kB0tbqiIayokRRiMeQYuXCZGKp1YixakrOvhH3VnorG_kqAWb3A94J4QTmBqXMhdHPtoSJ0eaRprAIuWsAtlGBdJRjxhv-C3auFaEDD6XNwVBbxldrTegvleC=s72-w640-h478-c"
+    },
+    {
+      "title": "You can not trust Chain of Thought",
+      "url": "https://ashkrit.blogspot.com/2025/04/you-can-not-trust-chain-of-thought.html",
+      "published": "2025-04-05T23:15:00.000-07:00",
+      "labels": [
+        "Chain of Though",
+        "LLM Broken reasoning"
+      ],
+      "excerpt": "As i was writing post on Turing test beyond turing test for todays llm , Antropic dropped paper on faithfulness on COT - reasoning-models-dont-say-think and it talks about interesting findings. So…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEgU4FbcjVOJ-QIDaUnk_ugAqb3Ag3bZqHNr4SqexgbVN5MIwarrN5qoRE4sz4ut-5-DHs2BclaEnUEyeLpAQSAR4_jamnSroUdKjmhese6H15MNCs2HBCXUesHW_S5VaOUyrv2YoZJ73LL21ui8XX73d1JKD6UoZ9eijt_2s0mY0B5FcC5GfxMuiCv9NW79=s72-w640-h545-c"
+    },
+    {
+      "title": "Beyond the Turing Test for todays LLM",
+      "url": "https://ashkrit.blogspot.com/2025/04/beyond-turing-test-for-todays-llm.html",
+      "published": "2025-04-05T21:54:00.000-07:00",
+      "labels": [
+        "Antropic",
+        "Deep Seek",
+        "Google",
+        "LLM thinking",
+        "Open AI",
+        "Reasoning Models"
+      ],
+      "excerpt": "This post is continuation of Teaching LLM to reason In 1950, Alan Turing proposed a deceptively simple test to determine if a machine could think: if a human evaluator cannot reliably distinguish…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEirRAYpXwmlSvoBs9baitCxKjb-LpwZRGbybmk43EDrt43aJeLlaMQZ8Hc2HA1loNn2TZzCZTI6KEEiZgzH3EgzZ01tS9HaGWIhnRmR9WeJQY9G5C_thdltdl45OKsmxQ3wEFhm6Lz8v24Z0cUwMC6V4H1wLxNZe1a1JuXoOS8oUxdTiY7gYo-HscTpt6Jg=s72-w640-h334-c"
+    },
+    {
+      "title": "First Principles Thinking - Multiple Perspectives - Part 1",
+      "url": "https://ashkrit.blogspot.com/2025/04/first-principles-thinking-multiple.html",
+      "published": "2025-04-04T20:42:00.000-07:00",
+      "labels": [
+        "Elon",
+        "First Principal Thinking",
+        "larry Page",
+        "Mark Zuck",
+        "Steve"
+      ],
+      "excerpt": "First principles thinking is a powerful approach to problem-solving and reasoning that involves breaking down complex problems into their most fundamental elements. Let me improve and expand on this…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEhA1AtDjcgWnEtepv7RuXMvVVGDYE3wxCn1-9nGv0Fy_B7DznyKdQ1rqX8OD2JwKWzhawGmECQJFH5hdfzVD8SDdxHUTejYR37xuoRLClMV6pHV_dOPc8VODppO3J_jZyWVqrq9Hycrz0u3KmZuJQUIoHHZK21tpXfdeBL_qumZ8Jhkz_mMsvBpkBKrcLgR=s72-w640-h466-c"
+    },
+    {
+      "title": "Teaching LLMs to Reason: The Journey from Basic Prompting to Self-Generated Examples",
+      "url": "https://ashkrit.blogspot.com/2025/04/teaching-llms-to-reason-journey-from.html",
+      "published": "2025-04-03T09:26:00.000-07:00",
+      "labels": [
+        "COT",
+        "LLM",
+        "Prompt Generator",
+        "Reasoning",
+        "Self Consistence"
+      ],
+      "excerpt": "In recent years, Large Language Models (LLMs) have made remarkable strides in their ability to reason—to break down complex problems, apply logic systematically, and arrive at well-justified…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEg__Pwh6cIlgtSiZdDyHekhrdksbQqca0lAAk_ucKyexT5dHpr9WXqkd7jpELgzsz5Swk61qea2IaczOaiNqZy2Y-ueeUlZ_Ea9WZa6G0YXmG8AFYnPT6_pTH8jgrzjHnvJA6FlgjCdPXVR2L3SNIz6gaW1l3BRdA_aTYERFEc7AebVUs-SP2Wjyd-s3n36=s72-w640-h326-c"
+    },
+    {
+      "title": "How AI Coding Assistants Reshape Productivity",
+      "url": "https://ashkrit.blogspot.com/2025/03/how-ai-coding-assistants-reshape.html",
+      "published": "2025-03-29T21:52:00.000-07:00",
+      "labels": [
+        "10X engineer",
+        "better programmer",
+        "GENAI"
+      ],
+      "excerpt": "The Jevons Paradox in Software Engineering: How AI Coding Assistants Reshape Productivity Imagine this: You've just installed the latest AI coding assistant. The marketing promised to cut your coding…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEjdl2BV2rzgJotcIPui89PtBzND673ezSNcb4Rpow6ug1A0vyK5FtGBtZHZ6DAu1p6WfhIWpFPludHo5GKXKiyuE5-C6Susf4PIsh5FLsk-dqnc2P2_VdQS42vGlYl8_9CB9-IPbhSNNtvlzlwta0406pBGGxxquk_ZX7fIQ6AbKyr8VZLupUaJsDbECb3C=s72-w640-h298-c"
+    },
+    {
+      "title": "Building a Strongly-Typed API for Large Language Models",
+      "url": "https://ashkrit.blogspot.com/2025/03/building-strongly-typed-api-for-large.html",
+      "published": "2025-03-06T21:16:00.000-08:00",
+      "labels": [
+        "JSON",
+        "LLM API",
+        "Type Safety"
+      ],
+      "excerpt": "In this post, we'll explore a Java interface designed to interact with Large Language Models (LLMs) in a type-safe manner. We'll break down the GenerativeAIService interface and its supporting…"
+    },
+    {
+      "title": "LLM Patterns",
+      "url": "https://ashkrit.blogspot.com/2025/03/llm-patterns.html",
+      "published": "2025-03-06T00:32:00.000-08:00",
+      "labels": [
+        "LLM Examples",
+        "LLM Patterns",
+        "TypeSafety"
+      ],
+      "excerpt": "Design patterns are reusable solutions to common problems in software design. They represent best practices evolved over time by experienced software developers to solve recurring design challenges…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1AtmVoo9e3szjOG3NgxMc4ihvTrzeWDbS-UZPnWJlR0LJF8MHGS9AQ1e5Gh823H18zPqm10rBC2sjoL8h6pzcvvq3MEoGSiulK9WRUGo-k0nBPUwn5LnUdAahkBt7f7UtR2wPUAf-1xUs_KPBtlYSyhVGCMS_Cjq51U91WlXMDfhx0fRNRuKAbx31yE25/s72-w640-h524-c/Screenshot%202025-03-06%20at%2012.42.58%E2%80%AFPM.png"
+    },
+    {
+      "title": "Building a Universal Java Client for Large Language Models",
+      "url": "https://ashkrit.blogspot.com/2025/03/building-universal-java-client-for.html",
+      "published": "2025-03-05T19:39:00.000-08:00",
+      "labels": [
+        "Anthropic",
+        "Factory based API",
+        "Google",
+        "GPT",
+        "Groq",
+        "LLM Java API",
+        "Ollma"
+      ],
+      "excerpt": "Building a Universal Java Client for Large Language Models In today's rapidly evolving AI landscape, developers often need to work with multiple Large Language Model (LLM) providers to find the best…"
+    },
+    {
+      "title": "Measuring Developer Productivity in Age on GENAI",
+      "url": "https://ashkrit.blogspot.com/2025/03/measuring-developer-productivity-in-age.html",
+      "published": "2025-03-04T17:19:00.000-08:00",
+      "labels": [
+        "Developer Productivity",
+        "DORA",
+        "GENAI",
+        "SPACE"
+      ],
+      "excerpt": "The GenAI Revolution: Two Years Later November 30, 2022 marked a pivotal moment when ChatGPT was released, sparking excitement and optimism about increased efficiency across industries. Now, with…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEhTDFT35WG5ipenQIHsqiwJYg0drYSvKA_RXLg92IehbtgcRdq5NIrBP72c5AjZQdBqPHHalvMarc3sizSqInf_xZxQUecOxzKmYdGb3bRBuDgC-U5HOtkOc4OGDbZGW7fUNMxHN3u8hpF1kqrV7g9ssgKmTs_8DoOIW_lCMU_-PVgAbSZl-ctEZS12yHsI=s72-c"
+    },
+    {
+      "title": "Implementing GenAI in Engineering Teams - System Thinking Approach",
+      "url": "https://ashkrit.blogspot.com/2025/03/implementing-genai-in-engineering-teams.html",
+      "published": "2025-03-03T19:41:00.000-08:00",
+      "labels": [
+        "Coding Assistance",
+        "Developer Productivity.",
+        "GENAI",
+        "Software Development"
+      ],
+      "excerpt": "In the rapidly evolving landscape of software development, Generative AI represents not just another tool, but a fundamental shift in how engineering teams operate. However, successful implementation…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEhKDBFjgcdxNhiwj5bfNRsOImDFSVWb4UV8Sm12MqeQ5vr0UiPRuXsqQ7dpA5EDOl2t2aLaStywo2oue5Df7Nd02lweyQujCWmGpPYyzh6QqH77uVkt-2EyKD_FZyhlXktKlVBAZrGrFPAI8x_Jpn7WEZHntdPkEzmfILFPudfhuQ1vsSb17g1rpZzzePir=s72-c"
+    },
+    {
+      "title": "Top large language model to watch",
+      "url": "https://ashkrit.blogspot.com/2024/07/top-large-language-model-company-to.html",
+      "published": "2024-07-07T18:14:00.000-07:00",
+      "labels": [
+        "Artificial Intelligence",
+        "GENAI",
+        "GPT",
+        "Llama",
+        "LLM",
+        "OpenSource Model"
+      ],
+      "excerpt": "The LLM landscape is exploding! With the immense potential of large language models, competition is fierce as companies race to develop the most powerful and innovative models. Training these models…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEgiQEkqKDfE0GTBe7oP3zZv_pAgMCblVDpUNTxSVsM_njywp_ss1v6u29nxR3JeTdTGfFtJvNVhlW3ZYw7UFULRBNvVio6J-yXn44lpI3UIRZN-m0N5HY2rauCsf2MttkJJNA3yeEI-LEtrq9Z-BY3XxjttkZnApTgw2YCNs0fTrs858FZULRwhfWrvEJmY=s72-w640-h334-c"
+    },
+    {
+      "title": "Say Goodbye to Boilerplate: Annotating Your Way to Powerful API Clients",
+      "url": "https://ashkrit.blogspot.com/2024/03/say-goodbye-to-boilerplate-annotating.html",
+      "published": "2024-03-23T03:24:00.000-07:00",
+      "labels": [
+        "Dynamic Proxy",
+        "Remote Procedure call",
+        "REST API",
+        "Service Interface"
+      ],
+      "excerpt": "Ever feel like writing boilerplate code for every single REST API call? Constructing URLs, managing parameters, setting headers, crafting bodies - it's all time-consuming and repetitive. Wouldn't it…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEiAyPMuqn_bfUN43LJtDM1_x72XSHRG8O9WtbnyBoZlnEzk2funjwFdX3n5a1b7GiBETaG8kXb_qJorWoczzDa4bgl8l0G2FkS7gYuC5PbJ0jgMFqsbLv8jrhgIJQ5no2qyPXf98gi4n6yEmUkK4jR3Nh4ojlWVfot84IyS0VuYSC9Xm3OWCUKFyokt_oHS=s72-w640-h154-c"
+    },
+    {
+      "title": "Demystifying Vector Databases: The Magic of Meaningful Search",
+      "url": "https://ashkrit.blogspot.com/2024/02/demystifying-vector-databases-magic-of.html",
+      "published": "2024-02-04T07:02:00.000-08:00",
+      "labels": [
+        "Cosine similarity",
+        "Embeddings",
+        "RAG",
+        "Semantic Search",
+        "Vector database"
+      ],
+      "excerpt": "What is vector database ? The digital world is awash in unstructured data. text documents, social media posts, images, videos, audio recordings, and more. While traditional database excel at storing…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEi5WGEghBHMpZ_SRXvCQF7ZWbV_Ku_ys6b1DHbIa-Zy27A_UpBm4asqoODMKSbrupWEi3EC2FRKAMVGhT19uXWfVnNi4qVLaw7ouXFw5aSOd2THv3ZEikNZT2tNI5HgZsASi_CBzQmkj-4Gv2-UeYklCYo_C1Ps0ZAMXtFow8n6royQgWhvFbJ9Ph-vU3xI=s72-w640-h274-c"
+    },
+    {
+      "title": "Multi Indexing",
+      "url": "https://ashkrit.blogspot.com/2023/08/multi-indexing.html",
+      "published": "2023-08-14T00:15:00.001-07:00",
+      "labels": [
+        "data structure",
+        "Lookup",
+        "Map",
+        "Tree"
+      ],
+      "excerpt": "Imagine you are the owner of a grocery store, which stocks a wide variety of products such as bakery items, dairy products, eggs, grains, vegetables, oils, frozen foods, and more. Now, you want to…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEhoGPkKJFFzimxByGGi28-GeKrbByNduI6URTtDmV-FBOHLxZ7Av_kdPzbobT3gRdJJO9KxfCAe18vnoPB9obesC9nDmQqwS-pW3Aol2ChRKbfzK-_Jn9fozVGL_uoBjkczfazy83RpRW1t1SlQo-QDeR6AAKVmBEgwmyyZvMF029bSdeU1FL4fHim3DrwX=s72-w400-h224-c"
+    },
+    {
+      "title": "More choice using ChoiceFormat",
+      "url": "https://ashkrit.blogspot.com/2023/07/more-choice-using-choiceformat.html",
+      "published": "2023-07-15T05:17:00.002-07:00",
+      "labels": [
+        "ChoiceFormat",
+        "JDK17",
+        "Logging"
+      ],
+      "excerpt": "The conversion of numbers to text is a frequently encountered problem for engineers. It manifests in various scenarios, and some of the most prevalent examples include: Converting a number to a day…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvify07nD_7-iIxtcaHTPwYmf4GjNs39ual1D6La-4OQcmGQ_2_cJdutVMug0rp7Yppb7lauKw6yWcoOLJ2KnCVQAbz1yySh9dGiIor7lBnplI2SGBIjiYnHaglAaahEN8My4FTXCHlFIQnruwZPSzG22dSwIR0we6ypw8mEpMu1pFl1FqRKuoWrQlJFHA/s72-c/download.jpeg"
+    },
+    {
+      "title": "Distributed Context Propgation",
+      "url": "https://ashkrit.blogspot.com/2023/05/distributed-context-propgation.html",
+      "published": "2023-05-01T03:37:00.000-07:00",
+      "labels": [
+        "Context Management",
+        "Distributed System",
+        "Global Locks"
+      ],
+      "excerpt": "Why distributed context ? Nowadays, modern applications are designed to be distributed across multiple data centers and regions, leveraging diverse technology stacks. As a result, a typical…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEhaUyMX8xoDeJv0IlXzqXUyydVHRw2ZXD1t_WVIww9A2mxZ1dE0H4--4zqo-RV2COBRcYKFIsAH9VqsBS4FtERRb7_THdTtbTsyCkRjnTGnD7b2Yg3tFtZvEYjIb_UemfZtiU4FqeRxHBJoWkvrGQwF_KOgvqg9GcrEU5_GcAiFqY3IIa1hbq_PlNFE7Q=s72-w640-h421-c"
+    },
+    {
+      "title": "Safe refactoring using Scientist",
+      "url": "https://ashkrit.blogspot.com/2023/04/safe-refactoring-using-scientist.html",
+      "published": "2023-04-08T23:49:00.002-07:00",
+      "labels": [
+        "Refactoring",
+        "TDD",
+        "Unit Testing"
+      ],
+      "excerpt": "Refactoring is a critical yet often overlooked activity in the product development lifecycle. Despite its importance, teams tend to neglect it until they encounter significant showstoppers during the…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEjqT66wubNZEvhkBoGDc9CSHWbyn5qM9N3LOZ9Oy6YSV34jE-OqrJqiI2kqP0drkzwAeCj1C_lluIsQxnE-gL1L2Umorn8NLZZ_qrt5QzzpxOnUYzcAEUkMlEF6owuhjAQGKRJfuZibijgq_j6H2PPrLYzUy6cVMkFUMwtqmV__hQW6q5vfbYmWLicYLQ=s72-c"
+    },
+    {
+      "title": "More on Dynamic proxy",
+      "url": "https://ashkrit.blogspot.com/2022/12/more-on-dynamic-proxy.html",
+      "published": "2022-12-11T09:55:00.004-08:00",
+      "labels": [
+        "Dynamic Proxy",
+        "Java Reflection",
+        "Method Timing",
+        "Stand-in processing pattern"
+      ],
+      "excerpt": "This is a follow up post from dynamic proxy to share about more realistic examples of dynamic proxy. Today's sof tware development is heavily reliant on system observability. Observability helps us…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEgNduIp-rFOR9-zeRLEPxLyd1KB0b8vNOA4Ti6_vAlV3MQ1wphjl4yg7w96oeMvAf0gbxOVN71jSvp_Li8ydZr9S46A5hWlpKTHphU-61_jZOrKpkffIKf1-BnFa195bv0tgiG8kiQyiij3RmBZdDvFDOy0Um3XmmEKzDjkF2c3YIexoWHHrvqTTVwUVw=s72-w493-h175-c"
+    },
+    {
+      "title": "Dynamic Proxy",
+      "url": "https://ashkrit.blogspot.com/2022/12/dynamic-proxy.html",
+      "published": "2022-12-11T05:54:00.002-08:00",
+      "labels": [
+        "Dynamic Proxy",
+        "MethodHandle",
+        "Reflection"
+      ],
+      "excerpt": "In software design, a proxy pattern is one of the popular GOF design patterns. A proxy is a class functioning as an interface to something else, it could be an interface to some business logic…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEh6lM5gnS0U_1b4MAJPlZ4FMU5V0ljreosBiU318DX1jQBcbxvo0J3vC0RlxpGM_qO9I0FkOhIeExEXrhnbEosLbJ4d4nvK_nCm8s5af8Q8f74TcXjCihWLty2F_Q4YRxxpqvmEfCNlyTBZghxoqyXBIrJLd3XWk3y1nmJHX_xxxzddz7sAkbC7QxIkGg=s72-c"
+    },
+    {
+      "title": "Concurrent Heap data structure",
+      "url": "https://ashkrit.blogspot.com/2022/03/concurrent-heap-data-structure.html",
+      "published": "2022-03-15T02:18:00.001-07:00",
+      "labels": [
+        "Concurrency",
+        "ConcurrentSkipList",
+        "Heap",
+        "Priority Queue",
+        "TOPX query"
+      ],
+      "excerpt": "Lets Heapify!!! Heap is very popular data structure used for solving Top X types of problem. For eg find the top 10 popular items by sales volume, top X users by activity etc. PriorityQueue data…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEgTnnQFEz69SePGOfawMKQiUoBOlAJEU37PPQWQo57hI8MFTLITIp1YYZ5NawMVoyjBhqSH9JlnZ1Xa9RTF-Pid7tV907eAfXJqAsVNhuNc5TuRcd_2Y5VrcEKoluD9R8IdHN1Kl_bYSG4ALdFPljnBJpv2us9h4JbftXs3gActTHRH90MCWHvdx1mdDg=s72-c"
+    },
+    {
+      "title": "What is Artificial Intelligence ?",
+      "url": "https://ashkrit.blogspot.com/2021/05/what-is-artificial-intelligence.html",
+      "published": "2021-05-07T21:43:00.000-07:00",
+      "labels": [
+        "AI",
+        "Artificial Intelligence",
+        "Data Science",
+        "Machine Learning",
+        "ML"
+      ],
+      "excerpt": "This is a post from series on artificial intelligence and machine . In this post, we will try to understand what AI is and where machine learning fits in it. As per Wikipedia Artificial Inteligence…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHSZDLSetlFx10RkuuIx3IMUvTKuDrVanOXtSSW5-YH8Hd2c4a6Nqx9CqaOsqA3hmrYbnfh1RO0F1AbetDNR2mLes6kQQ4ThnURpMtwoGLC9WmY-fnVw9f3vMwkOqehsaz-ykKZNQ6zTMw/s72-c"
+    },
+    {
+      "title": "Artificial Intelligence and machine learning",
+      "url": "https://ashkrit.blogspot.com/2021/05/artificial-intelligence-and-machine.html",
+      "published": "2021-05-07T21:41:00.003-07:00",
+      "labels": [
+        "AL",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "ML"
+      ],
+      "excerpt": "This post contains a catalog of high-level concepts in AI & ML. I will keep on updating as I write more stuff What is Artificial Intelligence ?",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9hMwYUiJiae9cMfSbhtXzpIV_3Uc6m_iZr99hC6SHMKN5Fqfro91zz4VWYh5kbMAkqqWnuPbQkCRltMXOFko5fbwZWisicYEokDxPNTHBxKP5aMlIFsmFrP-fyB_fCfQs5mqF88EFl-dF/s72-w400-h266-c/image.png"
+    },
+    {
+      "title": "Timeless investing lesson",
+      "url": "https://ashkrit.blogspot.com/2021/04/timeless-investing-lesson.html",
+      "published": "2021-04-10T22:48:00.002-07:00",
+      "labels": [
+        "Active Investing",
+        "Index Fund",
+        "Investing",
+        "Margin Call",
+        "Passive Investing",
+        "Warren Buffet"
+      ],
+      "excerpt": "I usually don't share my thoughts about investment via the blog but thought it would be useful to record the most important investing lesson so that I can come back and refer to it. The last few…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcX9ZRmMm9GcZFDS4TgbjCyjpP-GMmQI4Xd4E_Fxw4LhQwGiM9ZmxwYgYpmRsZCKRY0dwfXDv-rHzHePqyCMG8dp8i8f5BQPw4K-z0ND7J1d_T0hyphenhyphenYDmT5NyOvtWZO1d-A0TYFx9_e1fpu/s72-w400-h224-c/image.png"
+    },
+    {
+      "title": "Data partitioning approach.",
+      "url": "https://ashkrit.blogspot.com/2021/04/data-partitioning-approach.html",
+      "published": "2021-04-04T08:36:00.002-07:00",
+      "labels": [
+        "Consistent Hash",
+        "Distributed Database",
+        "Document Store",
+        "Key Value Store",
+        "partitioning",
+        "Rendezvous Hashing",
+        "Replication"
+      ],
+      "excerpt": "Partition is the technique of breaking a large data set into small manageable chunks. It is important to define partition strategy such that a single piece of information belongs to a single…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhT6IUbUKGKQd5u2yEkk_M4eb_Yckna1YfligoR72Dbe_QU_EFN1kRul8ILZP7TosChx72jzoXULcFNbZHJZFaw60YWuwsoekP2Id1zFU0iYgqHIP7Nq4v3egCjTtVN3MYk7EAJSAZOUuWr/s72-w640-h372-c/image.png"
+    },
+    {
+      "title": "Ordered data structure using B+Tree and Skip List",
+      "url": "https://ashkrit.blogspot.com/2020/12/ordered-data-structure-using-btree-and.html",
+      "published": "2020-12-24T20:34:00.005-08:00",
+      "labels": [
+        "B+Tree",
+        "data structure",
+        "Low Memory",
+        "Ordered",
+        "rum-conjecture",
+        "SkipList"
+      ],
+      "excerpt": "This post is based on rum-conjecture paper for data systems. This paper talks about read, update & memory overhead of data structure and gives some nice examples on how balancing 2 factors leaves 3rd…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhht2phArnHePHBm5O0aWqfZgiz9XtpSmUe8Du63U8IEqCsJZKwcxFxyL490gZ3xj5aX9phMoS_uFKn7WAp8-vXW8SdiQHsJJPVbHjdwMW3oJ5yCzIQEUREDBuayPWKa-mfEjGW6LYhkGXi/s72-w400-h215-c/image.png"
+    },
+    {
+      "title": "Sparse Matrix",
+      "url": "https://ashkrit.blogspot.com/2020/12/sparse-matrix.html",
+      "published": "2020-12-16T07:36:00.001-08:00",
+      "labels": [
+        "Dense Matrix",
+        "Dense Vector",
+        "Low Memory",
+        "Sparse Matrix",
+        "Vector"
+      ],
+      "excerpt": "Vectors are a very powerful data structure and it allows to write/read data using index. These vectors can be combined to create a matrix. Matrix are used in numerical analysis. One of the problems…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisGQvHaRicLRRNzoCO-ozXX-0E9Cxh0LaHgNXgM1GiwF1u7bxPaHLbiPX_DUF3IqiPCCfk3v4qzxqM1eqCychiq7jNLIdcQpBbBm74bqa0N9y_sbAQQBUBtmdUjBL3wAPK0Ni_RikPM7e_/s72-w400-h354-c/image.png"
+    },
+    {
+      "title": "Sorting under constraint algorithms",
+      "url": "https://ashkrit.blogspot.com/2020/12/sorting-under-constraint-algorithms.html",
+      "published": "2020-12-13T00:30:00.000-08:00",
+      "labels": [
+        "Algorithms",
+        "BigData",
+        "Bitmap",
+        "DiskSort",
+        "Heap",
+        "MergeSort",
+        "N-Way merge",
+        "Sorting"
+      ],
+      "excerpt": "In the compiler world code inlining is the most important optimization that enables other optimization like dead code elimination, pre fetching , out of order execution etc. Similarly sorting also…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQr_TwJfuKDDxSVR2Z1zvthDv9wfwpWPLRQjanVrSMQoA7porQGH6pZ_13VPe5UsA6VT35I-XsRlCI012KGkSJHZZA7hWP02hJsSHvMrMi0bOba_bwzXkPK5qJHjKdiDpIpOExhtJNFDlV/s72-c"
+    },
+    {
+      "title": "Disk storage algorithm",
+      "url": "https://ashkrit.blogspot.com/2020/12/disk-storage-algorithm.html",
+      "published": "2020-12-08T23:55:00.000-08:00",
+      "labels": [
+        "big data",
+        "Database engine",
+        "Disk Storage",
+        "Distributed Database",
+        "LSM",
+        "Slotted Page",
+        "SSTable",
+        "TimeSeries DB",
+        "TSDB"
+      ],
+      "excerpt": "This is follow up post on rethinking-key-value-store article to explore storage part of system. Many data systems support plugin based storage layers and it opens a whole set of options to use one…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaQJva5StlEeap3v-BPl_h3UraoqOUrasIGjjGszlqwtxx6Y4k1Ov5mDAuujqCVgEToE1vRhkNfPtR3eEGpwzlZuZlaaWNrL78L2m1Hbsd3iOviirbCT9MCeFAOneWhh0G2lT7qLV79KMz/s72-w640-h453-c/image.png"
+    },
+    {
+      "title": "Rethinking key value store",
+      "url": "https://ashkrit.blogspot.com/2020/11/rethinking-key-value-store.html",
+      "published": "2020-11-16T01:13:00.000-08:00",
+      "labels": [
+        "Distributed Database",
+        "Key Value Store",
+        "LevelDB",
+        "nosql",
+        "RocksDB",
+        "SQL"
+      ],
+      "excerpt": "In this post i will share how key-value stores can be used for building different types of application, but before we start deep dive lets do quick recap of database systems. Database technology is…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUp0dnQljMd-HfvG0xeWvpBw5esX1IGWosvJPPZOZJSONxCYicqZJCRorHD2LgOpuI_Go0yFb_dvJqWTvZ9HFWHRZIRlbL75oCcCvFmrNfEfcZLrH7Z0u3aJiJsJcM4Du0AextxEhHu9sK/s72-w640-h452-c/image.png"
+    },
+    {
+      "title": "Private method or state testing in JVM",
+      "url": "https://ashkrit.blogspot.com/2020/11/private-method-or-state-testing-in-jvm.html",
+      "published": "2020-11-07T23:18:00.000-08:00",
+      "labels": [
+        "Java Reflection",
+        "Private Method testing",
+        "Unit Testing",
+        "VisibleForTesting"
+      ],
+      "excerpt": "Unit testing private method is not recommended but s ome time we are in situation when unit test requires to inspect private state of object. As guideline we must avoid such type of design but some…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipXCC0P3Tfj87TsoAwAbLsACoKodLGzZKQHxiGd_VIIjIQ5hMS7nmteDnn7Q1lFzk9aZ0QZAmDUO-h0elvKsAaUYXaPhQvDKi38nxxEX69vpsxft-QeviFQXuutK4uvzN8DPPjih2te2Zt/s72-w640-h338-c/image.png"
+    },
+    {
+      "title": "Histogram is not Instagram",
+      "url": "https://ashkrit.blogspot.com/2020/10/histogram-is-not-instagram.html",
+      "published": "2020-10-20T10:19:00.005-07:00",
+      "labels": [
+        "Algorithms",
+        "hdrhistogram",
+        "Histogram",
+        "Latency",
+        "Perfomance",
+        "Query Engine",
+        "Spark"
+      ],
+      "excerpt": "Histogram is very popular technique to represent distribution of numerical data. This representation can be used for various thing like measuring latency of request, cardinality of data , grouping…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRx7HYZTXmj7FCbmuTjJ6G9Ji0GmcC04pNRl1TuQQ9RHFdP3rHb5DHBnCimqDgfAwzQ6FK-tzYsIALJF63ol9UV7bl0GPrwb3lEi-CcPdqPdQBYC8CFW11au2lR9R16vFN-OspwerQKB8h/s72-w640-h378-c/image.png"
+    },
+    {
+      "title": "Let the Stream flow",
+      "url": "https://ashkrit.blogspot.com/2020/09/let-stream-flow.html",
+      "published": "2020-09-27T09:07:00.001-07:00",
+      "labels": [
+        "Java Streams",
+        "Parallel Streams",
+        "Reduce"
+      ],
+      "excerpt": "Java Streams is one of the powerful feature of JDK that is based on Lambda. This post is quick refresher of Streams concepts using learning test . Streams are made up of Source |> map | filter…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXVD4lAPOhXLilndrWfteqEm9aeZCGc_OCcxZq4xnhhnE2QyGH9crXDdoJWR_jQyzgzqDM58y-NtpfUGZxD6BkqzULgShtAYWJ95UMk8I6AZ_mtIeg7GzGyoSLJxstzChAJDAohrs_esoq/s72-w578-h207-c/image.png"
+    },
+    {
+      "title": "Speak the language of domain - part 2",
+      "url": "https://ashkrit.blogspot.com/2020/08/speak-language-of-domain-part-2.html",
+      "published": "2020-08-11T04:18:00.007-07:00",
+      "labels": [
+        "Compiler",
+        "DSL",
+        "Dynamic Language",
+        "Parser"
+      ],
+      "excerpt": "While researching for post - speak-language-of-domain i spent some time building external DSL and experimented with parser and compiler. Parser & compiler are important components for external DSL…"
+    },
+    {
+      "title": "Speak the language of the domain",
+      "url": "https://ashkrit.blogspot.com/2020/08/speak-language-of-domain.html",
+      "published": "2020-08-11T02:40:00.008-07:00",
+      "labels": [
+        "Compiler",
+        "Domain Specific Language",
+        "DSL",
+        "RuleEngine",
+        "State Machine",
+        "Test Framework"
+      ],
+      "excerpt": "In this post I will share about what DSL and how we can create our own. Domain Specific languages are specialized languages targeted to domain, it has less vocabulary as compared to general purpose…"
+    },
+    {
+      "title": "Data encoding and storage",
+      "url": "https://ashkrit.blogspot.com/2020/07/data-encoding-and-storage.html",
+      "published": "2020-07-10T00:44:00.002-07:00",
+      "labels": [
+        "avro",
+        "Chronicle-Wire",
+        "CSV",
+        "Decoding",
+        "encoding",
+        "JSON",
+        "SBE"
+      ],
+      "excerpt": "Data encoding and storage format is evolving field, it has seen so many changes starting from naive text based encoding to advance compact nested binary format. Encoding/Decoding Selecting correct…"
+    },
+    {
+      "title": "Ship your function",
+      "url": "https://ashkrit.blogspot.com/2020/06/ship-your-function.html",
+      "published": "2020-06-28T09:12:00.000-07:00",
+      "labels": [
+        "Code as data",
+        "Distributed System",
+        "Function As Service",
+        "Server less"
+      ],
+      "excerpt": "Now a days function as service(FaaS) is trending in serverless area and it is enabling new opportunity that allows to send function on the fly to server and it will start executing immediately. This…"
+    },
+    {
+      "title": "Bit fiddling every programmer should know",
+      "url": "https://ashkrit.blogspot.com/2020/06/bit-fiddling-every-programmer-should.html",
+      "published": "2020-06-23T08:30:00.001-07:00",
+      "labels": [
+        "Bitwise",
+        "Low Latency",
+        "Low Memory",
+        "Performance"
+      ],
+      "excerpt": "Bit fiddling looks like magic, it allows to do so many things in very efficient way. In this post i will share some of the real world example where bit operation can be used to gain good performance…"
+    },
+    {
+      "title": "Data modeling is everything",
+      "url": "https://ashkrit.blogspot.com/2020/05/data-modeling-is-everything.html",
+      "published": "2020-05-23T22:51:00.000-07:00",
+      "labels": [
+        "Data modeling",
+        "denormalization",
+        "nosql",
+        "pre aggregation"
+      ],
+      "excerpt": "Everyone is aware of relation data modeling and it has served industry for long time but as data pressure increased relation data modeling that is based on Edgar_F._Codd rules are not scaling well…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnUkUWh0Iv4wcAFTpSS4VutPI8WjCpM5Cg79b_boWACuaw64K1KK1MabowE58COckviC1oRkeyD7BtGpgkxln_w9OSPpThBNWzurhKn1S_OXME7SlkDxTNS2TfzYefZByi4mIKGMNe1J19/s72-c/HD.GIF"
+    },
+    {
+      "title": "Immutability is everywhere even in hard disk.",
+      "url": "https://ashkrit.blogspot.com/2020/04/immutability-is-everywhere-even-in-hard.html",
+      "published": "2020-04-25T03:25:00.001-07:00",
+      "labels": [
+        "Copy on Write",
+        "Distributed System",
+        "Immutable",
+        "SSD"
+      ],
+      "excerpt": "Storage is cheap and it is used as leverage for building many high performance system. If data is immutable then it is safe to share and maintain multiple copy of data for various access pattern…"
+    },
+    {
+      "title": "Long Live ETL",
+      "url": "https://ashkrit.blogspot.com/2020/04/long-live-etl.html",
+      "published": "2020-04-17T21:59:00.000-07:00",
+      "labels": [
+        "Apache Spark",
+        "ETL",
+        "Extract Transform Load",
+        "Flink",
+        "Kafka"
+      ],
+      "excerpt": "Extract transform load is process for pulling data from one datasystem and loading into another datasystem. Datasystem involved are called source system and target system. Shape of data from source…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgF_9N-EmWffigoA15prgDAzypGr48XtCcAA_CvYmR4o8kbyFTbD6NN4qWm7SKkY2YR4sHdFDN3zohlPLkkrEjG3PMmcmog3Kvji4kifUb5PQJxn6g2Vuxo5IMNL5baUVvtXujDqH-sccri/s72-c/ETL-1.jpg"
+    },
+    {
+      "title": "Testing using mocks",
+      "url": "https://ashkrit.blogspot.com/2020/04/testing-using-mocks.html",
+      "published": "2020-04-10T06:34:00.000-07:00",
+      "labels": [
+        "Contract Based test.",
+        "EasyMock",
+        "JMock",
+        "TDD"
+      ],
+      "excerpt": "Mock objects are very useful if used right way. I shared some of the experience of using Mock Objects in need-driven-software-development-using post. In this post i share 2 things - Contract based…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggXGziuoUcFhlsa3Hzjpux59HPUAwyZ6W9hUSmZi_2cD_ga560Rk6vZAVjHuiJGmAqqtNN3ttte0ikVsu0XrSdXZ2nHcbtarZ7NbN92t8DiDxkMaooGTMJ2q_xUACVEVzXEC1T2mXwfOJp/s72-c/Design.GIF"
+    },
+    {
+      "title": "Incremental build with maven",
+      "url": "https://ashkrit.blogspot.com/2020/03/incremental-build-with-maven.html",
+      "published": "2020-03-19T03:18:00.001-07:00",
+      "labels": [
+        "build",
+        "compilation",
+        "incremental build",
+        "Maven Plugin"
+      ],
+      "excerpt": "This is 2020 and if you are starting any new java based project then gradle should be first option but for some reason if you are still stuck with Maven then you might find this post useful. Maven…"
+    },
+    {
+      "title": "Hands on Optional value",
+      "url": "https://ashkrit.blogspot.com/2020/03/hands-on-optional-value.html",
+      "published": "2020-03-14T02:15:00.000-07:00",
+      "labels": [
+        "Functional",
+        "NULL",
+        "Nullpointerexception",
+        "Optional",
+        "Streams"
+      ],
+      "excerpt": "Optional is in air due to coronavirus, everything is becoming optional like optional public gathering , optional work from home, optional travel etc. I though it is good time to talk about real \"…"
+    },
+    {
+      "title": "Better product by documenting trust boundary",
+      "url": "https://ashkrit.blogspot.com/2020/01/better-product-by-documenting-trust.html",
+      "published": "2020-01-20T07:09:00.001-08:00",
+      "labels": [
+        "Agile",
+        "Product",
+        "Testing"
+      ],
+      "excerpt": "Have you ever faced issue when you trusted system, team or product and that resulted in failure of feature or system? In fast changing progressive delivery, definition of trust keeps on changing…"
+    },
+    {
+      "title": "Complexity Accidental vs Essential",
+      "url": "https://ashkrit.blogspot.com/2019/11/complexity-accidental-vs-essential.html",
+      "published": "2019-11-15T18:12:00.001-08:00",
+      "labels": [
+        "Aglie",
+        "Clean Design",
+        "Complexity",
+        "Estimate",
+        "Software Development"
+      ],
+      "excerpt": "Today it is hard to find team or organization that is not following agile but building software has not become easy, projects are missing schedule , over budget and it is also flawed. Why it is so…"
+    },
+    {
+      "title": "All models are wrong",
+      "url": "https://ashkrit.blogspot.com/2019/11/all-models-are-wrong.html",
+      "published": "2019-11-12T15:41:00.000-08:00",
+      "labels": [
+        "followership",
+        "Ledership"
+      ],
+      "excerpt": "Above quote by George Box is commonly used in Statistic and Machine learning but this post has nothing to do with Machine Learning! I am going to share some thing about leadership models not machine…"
+    },
+    {
+      "title": "Don’t comment bad code—rewrite it",
+      "url": "https://ashkrit.blogspot.com/2019/11/dont-comment-bad-coderewrite-it.html",
+      "published": "2019-11-03T00:45:00.002-07:00",
+      "labels": [
+        "Bad Code",
+        "Clean Code",
+        "Clean Design"
+      ],
+      "excerpt": "In this post i will share my experience of \"comments in code\" that i have got by reading code , writing code and reading books. Lets start with famous quote “Don’t comment bad code—rewrite it.”…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIzFSuCG0ycOblLq60dr9V_ED3x3KmrWSajfolQgeEwif_68qrwYZ_VlgV-yAWr5eqfMa3oQ-gMpvrFdSfW_gdHgGBGf74G-TUckH-XE15qGfGhFIswQ00b1Keumo1uOnV6X4ji1iRJXzd/s72-c/IMG_5937.PNG"
+    },
+    {
+      "title": "Progressive delivery",
+      "url": "https://ashkrit.blogspot.com/2019/10/progressive-delivery.html",
+      "published": "2019-10-02T09:07:00.000-07:00",
+      "labels": [
+        "continuous delivery",
+        "continuous integration",
+        "Progressive delivery",
+        "Software Development"
+      ],
+      "excerpt": "Coupling is one of the important pattern for building software and it is recommended to build loosely coupled systems. Lets talk about loose coupling pattern in software deployment context. Industry…"
+    },
+    {
+      "title": "Tracer bullet software development",
+      "url": "https://ashkrit.blogspot.com/2019/09/tracer-bullet-software-development.html",
+      "published": "2019-09-08T09:35:00.001-07:00",
+      "labels": [
+        "Agile",
+        "Growth Team",
+        "Hackthon",
+        "Hyper Growth Team",
+        "Innovation",
+        "Software Development"
+      ],
+      "excerpt": "Software development methodology is evolving very fast and every team has found version that works well in current context. Software development methodology is going through continuous improvement…"
+    },
+    {
+      "title": "frontend vs backend development",
+      "url": "https://ashkrit.blogspot.com/2019/08/frontend-vs-backend-development.html",
+      "published": "2019-08-24T04:06:00.002-07:00",
+      "labels": [
+        "Backend engineer",
+        "Frontend engineer"
+      ],
+      "excerpt": "I am sure you might have got into discussion of frontend vs backend development or some engineers want to do only one type of development. I am passionate engineer for more than decade and have got…"
+    },
+    {
+      "title": "JVM with no garbage collection",
+      "url": "https://ashkrit.blogspot.com/2019/08/jvm-with-no-garbage-collection.html",
+      "published": "2019-08-17T22:51:00.000-07:00",
+      "labels": [
+        "Epsilon",
+        "GarbageCollection",
+        "JDk 12",
+        "JDk11",
+        "Low Latency"
+      ],
+      "excerpt": "JVM community keeps on adding new GC and recently new one was added and it is called Epsilon and is very special one. Epsilon only allocates memory but will not reclaim any memory. It might look like…"
+    },
+    {
+      "title": "Need driven software development using Mocks",
+      "url": "https://ashkrit.blogspot.com/2019/08/need-driven-software-development-using.html",
+      "published": "2019-08-14T07:39:00.000-07:00",
+      "labels": [
+        "JMock",
+        "TDD",
+        "Unit Test"
+      ],
+      "excerpt": "Excellent paper on mocking framework by jmock author. This paper was written in 2004 that is 18 years ago but has many tips of building maintainable software system. In this post i will highlight key…"
+    },
+    {
+      "title": "Exception handling",
+      "url": "https://ashkrit.blogspot.com/2019/07/exception-handling.html",
+      "published": "2019-07-25T18:40:00.001-07:00",
+      "labels": [
+        "CheckedException",
+        "Error Handling",
+        "Go Lang Error",
+        "Scala Error Handling"
+      ],
+      "excerpt": "In this post i will share how error handling is done and what options we have.Error handling is complex topic :-) I will add some context from wikipedia on what is exception handling before going…"
+    },
+    {
+      "title": "Cargo Cult - Innovation Center",
+      "url": "https://ashkrit.blogspot.com/2019/04/cargo-cult-innovation-center.html",
+      "published": "2019-04-28T07:47:00.000-07:00",
+      "labels": [
+        "Innovation Center Failure. Cargo Cult."
+      ],
+      "excerpt": "Cargo Cult is serious problem in Software industry. I think Innovation center is example of cargo cult. In this post i will share my views on innovation center. Innovative Idea killer People think…"
+    },
+    {
+      "title": "Adaptive scheduling of Spark Job using YARN API",
+      "url": "https://ashkrit.blogspot.com/2019/02/adaptive-scheduling-of-spark-job-using.html",
+      "published": "2019-02-10T03:37:00.000-08:00",
+      "labels": [
+        "Apache Spark",
+        "Capacity Scheduler",
+        "Yarn",
+        "Yarn Rest API"
+      ],
+      "excerpt": "In last blog poorman spark monitoring i shared approach on how to figure out how long Spark Job is waiting for resource. This post covers some more details on how to be proactive when Spark Job is…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzdEPK0Nn32XhZ9t6Cvg2IqVv_fCSLgPot7yvQ7evwejdSR2nFDukHu0Kiut9-7CIIfSUa3SBc6g5eHkOn0eM8eO4udfg5Jcrdj5bP81WiUIPVpIrRywWUYKEGwTSIFLIyEIT-7H3ypZXd/s72-c/Scheduler.GIF"
+    },
+    {
+      "title": "Golang control statements",
+      "url": "https://ashkrit.blogspot.com/2019/02/golang-control-statements.html",
+      "published": "2019-02-03T03:02:00.000-08:00",
+      "labels": [
+        "Branching",
+        "Golang",
+        "Switch"
+      ],
+      "excerpt": "We are going to explore Go lang control structure, this is not covering all the control statement but you can refer control-structures from effective go to get all the details. Refer to index page…"
+    },
+    {
+      "title": "Golang learning",
+      "url": "https://ashkrit.blogspot.com/2019/01/golang-learning.html",
+      "published": "2019-01-27T07:32:00.003-08:00",
+      "labels": [
+        "Golang concepts"
+      ],
+      "excerpt": "This page contains list of blogs written during my exploration of golang is it worth learning golang ? what are golang types how go lang struct works value of pass by value in golang…"
+    },
+    {
+      "title": "Poorman Spark monitoring",
+      "url": "https://ashkrit.blogspot.com/2019/01/poorman-spark-monitoring.html",
+      "published": "2019-01-26T22:02:00.000-08:00",
+      "labels": [
+        "Accumulator",
+        "Apache Spark",
+        "Monitoring",
+        "Spark Performance"
+      ],
+      "excerpt": "Spark exposes lots of metrics to get insights on what is happening inside Spark Application but some time you are looking for quick metrics on spark application. In this post i will share example of…"
+    },
+    {
+      "title": "Value of pass by value in GoLang",
+      "url": "https://ashkrit.blogspot.com/2019/01/value-of-pass-by-value-in-golang.html",
+      "published": "2019-01-20T09:16:00.000-08:00",
+      "labels": [
+        "GC",
+        "Go Lang",
+        "Memory",
+        "Pointers",
+        "Stack"
+      ],
+      "excerpt": "Now we are getting in some of the core concepts! Knowing this is very important to understand impact Go program will have on machine. Everything is pass by value in Go, no matter what you pass. This…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdF_JKNhVL4_SCuSCIak3hMzCmsFKp4NNYHzEohyphenhyphenN9MH-AMTzpp8w4x5Gv4q0oXuppHdjAn2tqiWP75TA7TDWgZmTdWyiAm4FVtsCVREDXMj4wHaSLoyqIyL7i2BDFKVxp1ENU6dcMrUM6/s72-c/Stack.GIF"
+    },
+    {
+      "title": "How Go lang struct works",
+      "url": "https://ashkrit.blogspot.com/2019/01/how-go-lang-struct-works.html",
+      "published": "2019-01-13T06:35:00.001-08:00",
+      "labels": [
+        "Go Lang",
+        "memory alignment",
+        "memorylaout",
+        "Struct",
+        "Types"
+      ],
+      "excerpt": "This is 3rd post of my Go lang experiment, if you are want to read about earlier post then go to is-it-worth-learning-golang what-are-golang-types Struct are cool types, it allows to create user…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRcj9R-8CR9U5ZsMCxv8-be7rahERfmh3jsY56gv1dCc2wFI_SL5haG0hRtbnknqtkf3F5saKdBu8jQd2nlPi4X-3Z0FLeanfg1xpbMoex5Zb8oikpDl1hUN0uFqICA3v0zXC-lXqf9yGr/s72-c/wordsize.GIF"
+    },
+    {
+      "title": "what are Golang Types",
+      "url": "https://ashkrit.blogspot.com/2019/01/what-are-golang-types.html",
+      "published": "2019-01-10T08:17:00.000-08:00",
+      "labels": [
+        "Go Lang",
+        "Struct",
+        "Types"
+      ],
+      "excerpt": "Go is strongly typed language and type is life. Language has rich types and good support for extension of type. Type provides integrity. In this post i will share some of primitive types and how Go…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1n8edbAgk-vm9emzo48NTbNFvsMYVCOcHWuIDlRGbRLlvQa67ViBoqvla2fMKqZJ3qk7nX7xvCBSiHFLTyJr0603C0p-WbxiKWuuGJRVrIL99sUg89-wAkap1si1owPKX9Cu-mgpHSqQf/s72-c/Bit.GIF"
+    },
+    {
+      "title": "Is it worth learning Golang ?",
+      "url": "https://ashkrit.blogspot.com/2019/01/is-it-worth-learning-golang.html",
+      "published": "2019-01-10T07:57:00.000-08:00",
+      "labels": [
+        "Dynamic Type",
+        "Go Lang",
+        "MultiCore",
+        "Static Type"
+      ],
+      "excerpt": "I was looking for new language to learn and Go looked very good candidate. It is getting popular due to its simplicity and power. It is created by some of best minds of our industry Robert Griesemer…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8nqUjvrzPWmWtsuWpTmfszj0PITD6Rt4JRvJ6cPgXUbf6e0Nrr3vYxhM0skGIq-LZhqBpQgLjaU8xQVkvjaN-qO-CR6enaqsXEUHzy9_tQCw8byt7BxRHcEFZtjTNIiSDqWuKDXhIhyBQ/s72-c/Easy.GIF"
+    },
+    {
+      "title": "Spark Run local design pattern",
+      "url": "https://ashkrit.blogspot.com/2018/11/spark-run-local-design-pattern.html",
+      "published": "2018-11-22T07:19:00.000-08:00",
+      "labels": [
+        "RunLocal",
+        "Spark",
+        "Spark Testing"
+      ],
+      "excerpt": "Many spark application has now become legacy application and it becomes very hard to enhance, test & run locally. Spark has very good testing support but still many spark application is not testable…"
+    },
+    {
+      "title": "Insights from Spark UI",
+      "url": "https://ashkrit.blogspot.com/2018/11/insights-from-spark-ui.html",
+      "published": "2018-11-18T09:35:00.000-08:00",
+      "labels": [
+        "GarbageCollection",
+        "Spark Performance",
+        "Spark UI"
+      ],
+      "excerpt": "As continuation of anatomy-of-apache-spark-job post i will share how you can use Spark UI for tuning job I will continue with same example that was used in earlier post, new spark application will do…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpTyg8rK9KLlAEk0t5Zl_cknKGqA2uVQ7KlVGsdzGGj3CDYNgZiKmnhupr8mIUNSKCFQ60tCl8kzEV4w3eGktcy5WEiIOSyvCt5L66ihl3nzfsTUEwtKjVJ8huIkDuMN3yYl_uZUYUmEm6/s72-c/Before.GIF"
+    },
+    {
+      "title": "SQL is Stream",
+      "url": "https://ashkrit.blogspot.com/2018/11/sql-is-stream.html",
+      "published": "2018-11-10T06:42:00.000-08:00",
+      "labels": [
+        "Database",
+        "ORM",
+        "Parallel Streams",
+        "Streams"
+      ],
+      "excerpt": "Stream API for any language looks like writing SQL. Map is Select Columns filter is Where count is Count(1) limit is LIMIT X collect is get all result on client side So it is very easy to map all the…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnlFQUiWTnqoWtO4vonJRDW5IEGgkJTG8EPgvKutKuM9YK6N_XZu7-Vk3SR7xefy_X0b_Pk2uMXsum8ocACFNdEcJ2nAxSKeVy-m7kVanXYgaCQgettAdEho5ygY-xVcL7YlzFNurEHONY/s72-c/hibernate.GIF"
+    },
+    {
+      "title": "Broken promise of Agile",
+      "url": "https://ashkrit.blogspot.com/2018/10/broken-promise-of-agile.html",
+      "published": "2018-10-26T06:40:00.000-07:00",
+      "labels": [
+        "Agile",
+        "Agile failure",
+        "Dark Agile"
+      ],
+      "excerpt": "AgileManifesto was written 17 years back(i.e 2001) and is it able to bring the change to industry ? I would say yes but not is the way authors wanted. Many consulting company made millions of $ but…"
+    },
+    {
+      "title": "Simple Testing Can Prevent Most Critical Failures",
+      "url": "https://ashkrit.blogspot.com/2018/10/simple-testing-can-prevent-most.html",
+      "published": "2018-10-23T06:00:00.000-07:00",
+      "labels": [
+        "Anti pattern in testing",
+        "Distributed System",
+        "Error Handling",
+        "Unit Test"
+      ],
+      "excerpt": "Error handling is one of the hardest and ignored part of software development and if system is distributed then this becomes even harder. Nice paper is written on Simple Testing Can Prevent Most…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8nUjPwv6vtE2fuG12FgO8RbUhSccenKvOYYA7QdaPTczouYn9R9MUvsrGC2jhYp62oHCkgU8ZEdwtZmkW0qNNEDbvd175wBPcae7yADb0QDJTcbc2CkcUBIyEIX8Cj0QlHrzdUwVs-Raj/s72-c/HDFS+Failure.GIF"
+    },
+    {
+      "title": "When microservices becomes darkservices",
+      "url": "https://ashkrit.blogspot.com/2018/10/when-microservices-becomes-darkservices.html",
+      "published": "2018-10-19T06:35:00.000-07:00",
+      "labels": [
+        "Anit pattern",
+        "MicroServices",
+        "UglyServices"
+      ],
+      "excerpt": "Micro services is great and many company comes and talk about it on how it is used for scaling team, product etc Microservices has dark side also and as a programmer you should about it before going…"
+    },
+    {
+      "title": "Setup SSL in Jetty",
+      "url": "https://ashkrit.blogspot.com/2018/10/setup-ssl-in-jetty.html",
+      "published": "2018-10-18T09:55:00.001-07:00",
+      "labels": [
+        "Jetty",
+        "SSL"
+      ],
+      "excerpt": "Have you faced issues when you have to quickly enable SSL and you got stuck with it :-( You are not alone, i will share my pain and some learning. I will share steps to enable SSL on jetty. Warning…"
+    },
+    {
+      "title": "Anatomy of Apache Spark Job",
+      "url": "https://ashkrit.blogspot.com/2018/09/anatomy-of-apache-spark-job.html",
+      "published": "2018-09-30T00:29:00.000-07:00",
+      "labels": [
+        "Apache Spark",
+        "Executor",
+        "Performance Tuning",
+        "Spark Internal",
+        "Spark Memory"
+      ],
+      "excerpt": "Apache Spark is general purpose large scale data processing framework. Understanding how spark executes jobs is very important for getting most of it. Little recap of Spark evaluation paradigm Spark…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgugySdyIp7qsFTXPbQx2D8IobGE5RcicEv32dG0aMOP9qu7GYAgk_Mc5t3dSnv3LwtLxeJlfAd7cZ8OX5qHOG6IgDcjDoh1_kgGV9I_QR0G5jWP4VhGOxr27UW5gg1uWyAFARCrBAVZp-G/s72-c/Spark+Application+Execution+Tree.GIF"
+    },
+    {
+      "title": "Scala Tuple performance",
+      "url": "https://ashkrit.blogspot.com/2018/07/scala-tuple-performance.html",
+      "published": "2018-07-26T08:24:00.000-07:00",
+      "labels": [
+        "big data",
+        "Case Class",
+        "Perfomance",
+        "Scala",
+        "Spark",
+        "Tuple"
+      ],
+      "excerpt": "Tuple is very powerful construct in programming language, it allows to create sequence of finite elements. Elements in tuple can be of different type and very easy to declare like (\"something\",1,new…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPZir3FIX7Ehht1kUGT3TYLm7IrJEI4pVH5uy8WajtrR5mC17Zi0anE2pBVj1RsUED9FxrQmoVpAcjhHNm_SecOI6rabDa21cgnO0FeNxEcgKeB3OLXqUrwFLoa6tPHAw-GsymutXKMXPc/s72-c/m.GIF"
+    },
+    {
+      "title": "Inside Simple Binary Encoding (SBE)",
+      "url": "https://ashkrit.blogspot.com/2018/06/inside-simple-binary-encoding-sbe.html",
+      "published": "2018-06-25T10:41:00.000-07:00",
+      "labels": [
+        "Low Garbage",
+        "Low Latency",
+        "Mechanical sympathy",
+        "SBE",
+        "serializable"
+      ],
+      "excerpt": "SBE is very fast serialization library which is used in financial industry, in this blog i will go though some of the design choices that are made to make it blazing fast. Whole purpose of…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7rmrXBdFO0GWPNk1bupj5ThTMwEQVmgOefgH-jMV86GtcseXq5lN3oy0ydcz3gfsOwKctmCOYikDQXb4aSIduq3dKlFbC0UFCcE0cSmCGrTrl6U-b2QVdAp56Tca_sOcv0gcwnRCU7Qr_/s72-c/b5172212-eac7-4960-bf4b-68fa9216c7ae.png"
+    },
+    {
+      "title": "Custom Logs in Apache Spark",
+      "url": "https://ashkrit.blogspot.com/2018/05/custom-logs-in-apache-spark.html",
+      "published": "2018-05-26T23:55:00.000-07:00",
+      "labels": [
+        "Apache Spark",
+        "Logback",
+        "Logging",
+        "slf4j",
+        "SparkUI"
+      ],
+      "excerpt": "Have you ever felt the frustration of Spark job that runs for hours and it fails due to infra issue. You know about this failure very late and waste couple of hours on it and it hurts more when Spark…"
+    },
+    {
+      "title": "Spark Microservices",
+      "url": "https://ashkrit.blogspot.com/2018/05/spark-microservices.html",
+      "published": "2018-05-26T04:52:00.000-07:00",
+      "labels": [
+        "Analytics",
+        "BigData",
+        "MicroServices",
+        "Query Engine",
+        "Spark SQL"
+      ],
+      "excerpt": "As continuation of big data query system blog, i want to share more techniques for building Analytics engine. Take a problem where you have to build system that will be used for analyzing customer…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL26YuvrBj8FKTbf6FQXRDG3vuVAVastwigyHbr-K-oaRjTPl4-kUKQXf4HMkdAWZqp_-QY3nXqdWbeYRrY-0Mm0X5nG_IoF4XEy0TJr8pOzFvICvohEY0clcCyu8HedZv5PCx1M_XZiYS/s72-c/Spark.GIF"
+    },
+    {
+      "title": "Design pressure on engineering team ?",
+      "url": "https://ashkrit.blogspot.com/2018/05/design-pressure-on-engineering-team.html",
+      "published": "2018-05-09T08:11:00.000-07:00",
+      "labels": [
+        "Bad Software",
+        "Clean Code",
+        "Clean Design",
+        "Design",
+        "Tech Debt"
+      ],
+      "excerpt": "How many time you are supporting or developing system and felt it could have been better designed. Move fast and break things culture in software has allowed engineering team to get product early to…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLydvZaWHrIO3eG8LxxwK4O8MkYgpZYg6iCcocrqlQb1IB35R9NgHUJyWtAvA-OtRbv5YiiZrLiaGx4eCO8YL-zgujc4fqaasHaDiBtiLfroSCrKSD_hUpYxL1B0qWedlFNqRzeycmUUP3/s72-c/aop.jpg"
+    },
+    {
+      "title": "OS tools for java performance monitoring",
+      "url": "https://ashkrit.blogspot.com/2018/05/os-tools-for-java-performance-monitoring.html",
+      "published": "2018-05-05T09:28:00.001-07:00",
+      "labels": [
+        "Java Performance.",
+        "Linux",
+        "OS Tools"
+      ],
+      "excerpt": "In this blog i will go through some of the Unix OS tools that can be used to monitor health of application. Lets first define what is performance monitoring before we get to tools. Performance…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjd1lK67okrM5FSLYUrvjGtrV_-GEdJh92c32qKCXe6jEyJl6a6_CtyR5-73Qo7n_JOqCw4wlcsNNsA6Pwh4Vc-2WRExWFcgFRouznq9FwwIuncBWvcuAGULNvEdj7DreET2Z6GYG3W-37G/s72-c/top.png"
+    },
+    {
+      "title": "Pragmatic Programmer - Boiled frog.",
+      "url": "https://ashkrit.blogspot.com/2017/12/pragmatic-programmer-boiled-frog.html",
+      "published": "2017-12-03T05:44:00.000-08:00",
+      "labels": [
+        "Agile",
+        "David Thomas",
+        "Embrace Change",
+        "Pragmatic Programmer"
+      ],
+      "excerpt": "Pragmatic Programmer book has lots of solid advice and it was published 18(1999) years ago and all that advice is still relevant. It has one section on Stone Soup & Boiled frogs. Boiled frogs This…"
+    },
+    {
+      "title": "Big data query system",
+      "url": "https://ashkrit.blogspot.com/2017/11/big-data-query-system.html",
+      "published": "2017-11-26T08:07:00.002-08:00",
+      "labels": [
+        "aggregated data",
+        "BigData",
+        "Query System",
+        "Stratified Sampling"
+      ],
+      "excerpt": "HDFS was born on 2006 to fix the distributed storage/computing problem and then came spark riding on cheap hardware in 2012 to fix distributed processing problem in disruptive style. One problem…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj463DSMfsX2Sht7-z8Ob-24Cbs0TNqGOCjT8aQAj2v_mFEg2kFah9JVSOOeZlNlFbCZ_sCQATY4EaAamvaUzUDrgTaKPTnNuAKt_MHunmMYd8V8Daj-wvjiDtJVEDN8fge2h99iPjAX-3S/s72-c/Screenshot+from+2017-11-01+20-21-36.png"
+    },
+    {
+      "title": "Machine Learning 101",
+      "url": "https://ashkrit.blogspot.com/2017/11/machine-learning-101.html",
+      "published": "2017-11-26T07:37:00.001-08:00",
+      "labels": [
+        "Machine Learning",
+        "Naive Bayes classifier",
+        "Sentiment analysis",
+        "Supervised learning"
+      ],
+      "excerpt": "Data science is trending these days, everybody wants to become data scientist because it is cutting edge and has high paying jobs. I am also starting to learn this coooool stuff and best way to learn…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkfBECHA0mwFv0adhoB1yzu-lvKU2-CT4Qp9x4slPFyt2h1JoRTxIon1WsmKBI-ynSSA7ryf_PyKKKbG_B2Emm8ku6p1UI_jKulTtmfvHT8g5Nsbrk2hOM_jf8Yjb8oYyTWwtgRQJteZjr/s72-c/ml.PNG"
+    },
+    {
+      "title": "Data structure for big data",
+      "url": "https://ashkrit.blogspot.com/2017/10/data-structure-for-big-data.html",
+      "published": "2017-10-25T10:51:00.000-07:00",
+      "labels": [
+        "BigData",
+        "HyperLogLog",
+        "LogLog",
+        "probabilistic algorithms",
+        "Sketch"
+      ],
+      "excerpt": "Today crunching Terabyte of data is very common and it brings up interesting challenges. Memory is getting cheaper and it is enabling application to keep all the data in memory and process it but…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTo4bdF2zs1R4jCWgzMdn87D5B7cACw_0CRCQl-0pDainhMtFt7eMyyUew_z2InRAmTpW-pdDWtj43EQZwHKbqyV3ynoEC4nml_S84JEQK6tcDcv8aTB2VMiA22jDDrEDaQwRsq_llj0Nt/s72-c/Screenshot+from+2017-10-24+19-55-16.png"
+    },
+    {
+      "title": "Unix design patterns and philosophy",
+      "url": "https://ashkrit.blogspot.com/2017/09/unix-design-patterns-and-philosophy.html",
+      "published": "2017-09-16T09:06:00.003-07:00",
+      "labels": [
+        "Architecture",
+        "Clean Design",
+        "Design Pattern",
+        "Uinx"
+      ],
+      "excerpt": "Design patterns got very famous after release of Design-Patterns-Elements-Reusable-Object-Oriented book and it became one of the advance topic of software engineering. It become one of the must book…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNMBDcoke3QCFZosqL92xdn_Pxmna1rybspwBjhfYgsEPYJODESgkVRJ_R6AImSAUnOw4VsyjM7qTjrEgwM9LYsEH8CL6gZnHM-tThpFhMAAmRnshuNhDPp0sgUCfKF_33txBIAcGp_v7M/s72-c/bottom-up.jpg"
+    },
+    {
+      "title": "Java Intrinsic magic",
+      "url": "https://ashkrit.blogspot.com/2017/07/java-intrinsic-magic.html",
+      "published": "2017-07-24T01:23:00.002-07:00",
+      "labels": [
+        "CAS",
+        "Counter",
+        "Hotspot",
+        "Intrinsic",
+        "Optimization"
+      ],
+      "excerpt": "I got question on atomicinteger-java-7-vs-java-8 blog about implementation of unsafe. getAndAddInt function It looks like JDK8 is still using CAS version. If you just look at the code in IDE then you…"
+    },
+    {
+      "title": "Programmer Oath",
+      "url": "https://ashkrit.blogspot.com/2017/06/programmer-oath.html",
+      "published": "2017-06-27T10:47:00.000-07:00",
+      "labels": [
+        "better programmer",
+        "Clean Code"
+      ],
+      "excerpt": "Uncle Bob is very famous for his ideas on Clean Code. He is very hardliner on Test driven development . I am big follower of him and have read few books Clean Code , Clean Coder written by him, i…"
+    },
+    {
+      "title": "Lazy evaluation",
+      "url": "https://ashkrit.blogspot.com/2016/08/lazy-evaluation.html",
+      "published": "2016-08-25T09:40:00.000-07:00",
+      "labels": [
+        "Lazy Eval",
+        "Lock",
+        "Log4J",
+        "Performance",
+        "Synchronized",
+        "Threading"
+      ],
+      "excerpt": "Recently i was writing log4j appender and wanted to use logger in it to log some diagnostic details during custom appender creation, but log4j initialization completes only after appender instance…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGMVyMwL6-fXStG3H_HX0VPuXVEZSrVPsu6a0h5cSsGmyMKIh3oy80etJjDipRIeflqwMDrf_XRg0uTqzh5719jRrxBChrYZdOYlWWxPA_SwUQyJlyHwp7Nd-8uBizMXl0FfALq_65crEe/s72-c/All+three.GIF"
+    },
+    {
+      "title": "Java Arrays Sort decoded",
+      "url": "https://ashkrit.blogspot.com/2016/06/java-arrays-sort-decoded.html",
+      "published": "2016-06-19T09:38:00.001-07:00",
+      "labels": [
+        "Merge Sort",
+        "Pivot Sort",
+        "Sorting"
+      ],
+      "excerpt": "Sorting is one the first algorithm that we learn in computer science. Sorting is such an interesting area that it has around 20+ algorithm and it is always difficult to decided which one is best…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZInPvJkDwnhxLxk6MBFPTButGD9hECO0e__AdY8KGQgE6Z8CmUYQwV12sSTfoqEQKeq6lUk-5p8-I3Jyzbyi8rZpSUMfq6VW_yFoOwZotU951BA9ethfWMOPVOqUaM4ZGm2Er2je7hNW9/s72-c/Insertion-sort-example-300px.gif"
+    },
+    {
+      "title": "Binary Search",
+      "url": "https://ashkrit.blogspot.com/2016/04/binary-search.html",
+      "published": "2016-04-08T09:06:00.000-07:00",
+      "labels": [
+        "Binary Search",
+        "Coding Interview"
+      ],
+      "excerpt": "This blog is part of series that i wanted to start Preparation of Coding Interview Binary search is one of the first search algorithm that we learn, it is simple to implement and very powerful, gives…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggOSyF5A8MhILd40ayDSzHUw8i21-UGE6RUD2ELCt11bIoNGCpW5Ufbs-RP7E4QkQ7_dJRL-zuZjvSUpjZOrjmuioWsCvbn-5vycyc0wE-SzOBi1hHmiAWmz0RT8qhmYNhss3UK4F0jpT0/s72-c/Binary+Search+algo.GIF"
+    },
+    {
+      "title": "Preparation of Coding Interview",
+      "url": "https://ashkrit.blogspot.com/2016/04/prepration-of-coding-interview.html",
+      "published": "2016-04-06T07:42:00.000-07:00",
+      "labels": [
+        "Algorithms",
+        "Coding Interview",
+        "TDD"
+      ],
+      "excerpt": "I want to share my coding interview experience, so i have decided to write blog series about questions that are asked and this is first one in that series. Coding interview are very common these days…"
+    },
+    {
+      "title": "How to win friends and influence people",
+      "url": "https://ashkrit.blogspot.com/2016/02/how-to-win-friends-and-influence-people.html",
+      "published": "2016-02-27T22:17:00.001-08:00",
+      "labels": [
+        "Friends",
+        "influence people",
+        "People",
+        "Self Help"
+      ],
+      "excerpt": "Recently i went on long vacation and took couples of books to read while i enjoy time with family. One of the book that i read is How-Win-Friends-Influence-People by Dale Carnegie. This book is about…"
+    },
+    {
+      "title": "Mr Cool - Bloom Filter",
+      "url": "https://ashkrit.blogspot.com/2015/12/mr-cool-bloom-filter.html",
+      "published": "2015-12-11T06:57:00.000-08:00",
+      "labels": [
+        "big data",
+        "Bloom Filter",
+        "data structure",
+        "probabilistic"
+      ],
+      "excerpt": "HashCode based data structure are basis of many algorithms, it is used for fast look up , membership queries, group by etc. HashCode is also used to build some interesting class of data structure. In…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE-G8AZ4deJ7pUAxXsSL_sWx-0Bc-NmfWGcRHwrGjhymn4PfM3cvBGaXFTczgQcOsk4aadeUAFe2R40RvM-W3tkcYt4XmeihALSIBXtLLQm8VTRg7PPoCIUGS7SzpcSAH4m73nnCxedf6T/s72-c/Single+Hashcode.GIF"
+    },
+    {
+      "title": "Soft Skills - How to teach yourself",
+      "url": "https://ashkrit.blogspot.com/2015/10/soft-skills-how-to-teach-yourself.html",
+      "published": "2015-10-05T06:43:00.000-07:00",
+      "labels": [
+        "Learning",
+        "SoftSkills",
+        "Teaching"
+      ],
+      "excerpt": "I have started reading Soft-Skills-software-developers-manual book and liked it, it is has lot of valuable information that can help in better management/planning of software development career. All…"
+    },
+    {
+      "title": "Lazy Array Initialization",
+      "url": "https://ashkrit.blogspot.com/2015/10/lazy-array-initialization.html",
+      "published": "2015-10-01T08:38:00.001-07:00",
+      "labels": [
+        "ConcurrentHashMap",
+        "JDk8",
+        "ThreadSafe Array Allocation"
+      ],
+      "excerpt": "Lazy object initialization is one of the important strategy to avoid upfront allocation and it can become little tricky if multiple threads are involved. Some of the language like scala has language…"
+    },
+    {
+      "title": "Wrap around design pattern in java8",
+      "url": "https://ashkrit.blogspot.com/2015/09/wrap-around-design-pattern-in-java8.html",
+      "published": "2015-09-30T08:29:00.000-07:00",
+      "labels": [
+        "JDk8",
+        "Lamdba. Design Pattern"
+      ],
+      "excerpt": "Wrap around pattern is not listed in in GOF book but is very useful for problem like below - Loop construct for e.g do while/while/for loop - Stopwatch around some code. - Wrap checked exception with…"
+    },
+    {
+      "title": "Performance tuning story",
+      "url": "https://ashkrit.blogspot.com/2015/09/performance-tuning-story.html",
+      "published": "2015-09-24T07:31:00.000-07:00",
+      "labels": [
+        "Batch Update",
+        "Database",
+        "Locks",
+        "Performance Tuning",
+        "Single writer"
+      ],
+      "excerpt": "Recently i was doing performance tuning of application startup time, it was taking close to 30 min and cold restart was real pain. I this blog i will share story of this performance tuning…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiv-bUaZmiviV0dldscUwLAK9w-mUWXlzHLTE-9-ysJdFhK5eyDQeuFNBHd8UlVt1AVNDn6EZq-ewb0UsleyEGUSFw_Qgp17a8dZdtsSzl4F6j9Ri_u-nMTvT2SSVjs_LfJ2aQEu1bcxKYK/s72-c/Current+Logic.png"
+    },
+    {
+      "title": "Collection resize and merge policy",
+      "url": "https://ashkrit.blogspot.com/2015/09/collection-resize-and-merge-policy.html",
+      "published": "2015-09-23T06:46:00.002-07:00",
+      "labels": [
+        "Collection",
+        "Java",
+        "Memory Allocation"
+      ],
+      "excerpt": "Collection like ArrayList/Vector are extension of plain array with no size restriction, these collection has dynamic grow/shrink behavior. Growing/shrinking array is expensive operation and to…"
+    },
+    {
+      "title": "Indexes in Embedded database",
+      "url": "https://ashkrit.blogspot.com/2015/08/indexes-in-embedded-database.html",
+      "published": "2015-08-27T10:07:00.000-07:00",
+      "labels": [
+        "Embedded database",
+        "Hash Index",
+        "In-Memory",
+        "Suffix Index"
+      ],
+      "excerpt": "Embedded database are very important part of application that has micro/mill second latency requirement,. Most of the embedded database has very good read performance and has specialized types…"
+    },
+    {
+      "title": "Efficiency with Algorithms",
+      "url": "https://ashkrit.blogspot.com/2015/07/efficiency-with-algorithms.html",
+      "published": "2015-07-23T10:31:00.000-07:00",
+      "labels": [
+        "Algorithms",
+        "Collection",
+        "Performance"
+      ],
+      "excerpt": "Recently had look at excellent talk on Efficiency with Algorithms, Performance with Data Structures , this talk has really some good content on performance. In this blog i will share some of ideas…"
+    },
+    {
+      "title": "BitMap sorting",
+      "url": "https://ashkrit.blogspot.com/2015/07/bitmap-sorting.html",
+      "published": "2015-07-16T09:55:00.001-07:00",
+      "labels": [
+        "Bitmap",
+        "Low Memory Sort",
+        "Merge Sort",
+        "SortedSet"
+      ],
+      "excerpt": "Data structure is most important building block of any algorithm and it makes algorithm efficient. Bitmap is very powerful data structure and is good fit for many problems, it is used for indexing in…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixLQQ-JVhJ-japslL9wF24NtrvwTW2UGIeexLBOcn9HaZ5OE3qwmbsrZkeCxECmUVWE9GzdT5IpeubfCJNRiVbiqs0DGONap-lVJVgCav6gIWs1aeOBozoaQdzspwTm3fGsp6g2kc8cGMt/s72-c/BitSort.GIF"
+    },
+    {
+      "title": "Joy Inc is really Joyful",
+      "url": "https://ashkrit.blogspot.com/2015/07/joy-inc-is-really-joyful.html",
+      "published": "2015-07-07T09:53:00.000-07:00",
+      "labels": [
+        "Agile",
+        "Joy Inc.",
+        "Pair Programming"
+      ],
+      "excerpt": "I heard closing keynote talk by Richard-Sheridan at agile singapore conference where he shared how he build joyful company. Richard has published book Joy, Inc.: How We Built a Workplace People Love…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhr7b137EYIQt30_snkmf2JkwUo6gXIdPhAAQtUaiWjcckt1kttLYZdTw-25CwRsCWmUXBJTnBxsGj7UwhCwJCK2s6Qlwl2xuA1ajlFpIU9BQ29Mf0NrMETpHLT3ipuOeZPyD1aPAN8EnvQ/s72-c/Rewards.GIF"
+    },
+    {
+      "title": "Integer Encoding Magic",
+      "url": "https://ashkrit.blogspot.com/2015/06/integer-encoding-magic.html",
+      "published": "2015-06-18T09:53:00.000-07:00",
+      "labels": [
+        "avro",
+        "encoding",
+        "externalizable",
+        "integer",
+        "serializable"
+      ],
+      "excerpt": "Question was asked to me on serializable/externalizable and why externalizable is fast , my answer was not convincing , so i spend some time on google to get more details and web has tons of…"
+    },
+    {
+      "title": "Experiment with String Split",
+      "url": "https://ashkrit.blogspot.com/2015/05/experiment-with-string-split.html",
+      "published": "2015-05-07T09:45:00.001-07:00",
+      "labels": [
+        "Low Garbage",
+        "Low Memory",
+        "Performance",
+        "String Split"
+      ],
+      "excerpt": "Splitting string based on some token is very common operation in application, in this blog i will share some options that are mostly used and types of overhead involved in it. String.split This is…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMNGD-7zjT_O-W9roh8JNygyvK-O-N62_VzaE1n9wm2BspcM-ckS2yThx9VErLOLUvFqJz7NwBNZjOKa2lH-krFXJErBDvPbB4Gkg7oGExhR1Z83gwTd7ve4q_QEGp3lWlaeAr9eaVGAMz/s72-c/StringSplit+vs+StringTokenizer.JPG"
+    },
+    {
+      "title": "Java8 Parallel Streams",
+      "url": "https://ashkrit.blogspot.com/2015/01/java8-parallel-streams.html",
+      "published": "2015-01-14T08:52:00.002-08:00",
+      "labels": [
+        "JDk8",
+        "Parallel Streams",
+        "Streams"
+      ],
+      "excerpt": "Recently found great article on when to use Parallel Stream by Doug lea and team. In this blog i will share some performance result of different data structure. Splittable data structure This is one…"
+    },
+    {
+      "title": "what is new in java8 ConcurrentHashMap",
+      "url": "https://ashkrit.blogspot.com/2014/12/what-is-new-in-java8-concurrenthashmap.html",
+      "published": "2014-12-25T06:46:00.000-08:00",
+      "labels": [
+        "ConcurrentHashMap",
+        "ForkJoin",
+        "JDk8"
+      ],
+      "excerpt": "Java8 has lots of new features that will help in writing code that express its intent more clearly and in concise way. ConcurrentHashMap has lots of nice features that reduces boiler plate code, most…"
+    },
+    {
+      "title": "Recommend books @ agile singapore",
+      "url": "https://ashkrit.blogspot.com/2014/11/recommend-books-agile-singapore.html",
+      "published": "2014-11-15T05:33:00.001-08:00",
+      "labels": [],
+      "excerpt": "I recently attended agilesingapore conference. This was my first agile conference, lot to take away. Amazing speakers were invited, keynote talks were very amazing and inspirational. One of the…"
+    },
+    {
+      "title": "Factory Without IF-ELSE",
+      "url": "https://ashkrit.blogspot.com/2014/10/factory-without-if-else.html",
+      "published": "2014-10-10T09:20:00.000-07:00",
+      "labels": [
+        "Core Java",
+        "Enum",
+        "Factory",
+        "IF-ELSE",
+        "Java Reflection"
+      ],
+      "excerpt": "Object Oriented Language has very powerful feature of Polymorphism, it is used to remove if/else or switch case in code. Code without condition is easy to read. There are some places where you have…"
+    },
+    {
+      "title": "Working Effectively with Legacy Code",
+      "url": "https://ashkrit.blogspot.com/2014/09/working-effectively-with-legacy-code.html",
+      "published": "2014-09-24T16:20:00.001-07:00",
+      "labels": [
+        "Legacy code",
+        "Refactor",
+        "TDD"
+      ],
+      "excerpt": "Recently i attended Working Effectively with Legacy Code course by Michael Feathers It was very good learning experience , he talks about how to work with code that does not have unit test or less…"
+    },
+    {
+      "title": "TDD - Roman Numerals kata -",
+      "url": "https://ashkrit.blogspot.com/2014/09/tdd-roman-numerals-kata.html",
+      "published": "2014-09-17T08:24:00.002-07:00",
+      "labels": [
+        "TDD"
+      ],
+      "excerpt": "Interesting experiment on TDD, i knew it is better but did't expect that proving it could be this simple . Reference Blog : http://www.codemanship.co.uk/parlezuml/blog/?postid=1021",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGdqI8qH3_lLhWKfKP2FAXu9L7dOrnFc5mnJo04-Evg4tD4PssjSnP7Q9UOb-2KhhHp30TpoZkUD3Yj3Uf42kHipVNzB0X4pxgvgmmmL4IuPWQbMpGs0YlKzeEwreHcpy9_Z4Lmci_06Ng/s72-c/Roman+Numerals+kata.JPG"
+    },
+    {
+      "title": "Compact String List",
+      "url": "https://ashkrit.blogspot.com/2014/08/compact-string-list.html",
+      "published": "2014-08-06T08:16:00.000-07:00",
+      "labels": [
+        "Array",
+        "Low Memory",
+        "String",
+        "String pool"
+      ],
+      "excerpt": "Whenever application memory profile is analyzed string is one of the most common object that comes right on top . Java has String pool that solves problem to some extent and lot of interesting…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKDqeSR9KQFQyWYDEBQdOcFNkKf4fWUi1JTjWM5srjcfuztHtwIMeZvaI-PvKtjFsJ3bcB9CNxV_ZZIOxk_65v25QDLC7P721XtjF3dJyCXx2EnhRxT_HeK83t-y2HAug_uqklw4Bc1uKI/s72-c/Big+Array.JPG"
+    },
+    {
+      "title": "Always leave office on time - Dr APJ Abdul Kalam",
+      "url": "https://ashkrit.blogspot.com/2014/07/always-leave-office-on-time-dr-apj.html",
+      "published": "2014-07-19T07:56:00.002-07:00",
+      "labels": [],
+      "excerpt": "Old but still gold could not resist to add this to my collection!",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaQowwasUXg3emaiuguPPuEH2FpXdK8Jrb9s0YUYIH_fY1TyHlU2cVWdJHrUeoI2JaG-HC1gHd2pINUg80slxYax8w2v_eF1HIxWNmz8aa-mnLORHA9jeDUQOcdQ9h1anUERY2gSscco7l/s72-c/always-leave-office-on-time.jpg"
+    },
+    {
+      "title": "MethodHandle returns back in java 8",
+      "url": "https://ashkrit.blogspot.com/2014/06/methodhandle-returns-back-in-java-8.html",
+      "published": "2014-06-28T09:23:00.000-07:00",
+      "labels": [
+        "Java Reflection",
+        "MethodHandle"
+      ],
+      "excerpt": "Longtime back i wrote blog to compare performance of reflection/methodhandle etc. Methodhandle was introduced in JDK7 and its performance was not that good as compared to reflection. Recap of test…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgn7N3as8Wm5FEA5tmNiRAmtNj6x_lTGpS-97mapdzKk8OAyEBjqUZSrnqVzuXqbBWb1-113NAMOsOgZsjg7mQcTtvTLA57Mm69iMm9w9MXY2f0yA_0wiFlYgzYH1OttMJHBDRbbE-6u8aW/s72-c/JDK7+Reflection.JPG"
+    },
+    {
+      "title": "Off Heap concurrent counter",
+      "url": "https://ashkrit.blogspot.com/2014/03/off-heap-concurrent-counter.html",
+      "published": "2014-03-14T11:15:00.001-07:00",
+      "labels": [
+        "CAS",
+        "Inter Thread communication",
+        "IPC",
+        "MemoryMapped",
+        "Off-Heap"
+      ],
+      "excerpt": "Concurrent counter are part of almost every system, it is used to collect data, thread synchronization etc. Java has good support of heap based counter. There could be use case when you need counter…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_BIah7TvVDtypPorPCk106WMjwKJo6lucWF0lxIuBcj6_PFHNWNogZlIL8RZCnJ4q9KXocMe8XgBcY3s6wVCEC1mUg1rJVxfq18RSwHpmhH3wl14ij8MnM3kPulB8CKTGDGVVSyQIts0d/s72-c/Counter+Stats.JPG"
+    },
+    {
+      "title": "AtomicInteger Java 7 vs Java 8",
+      "url": "https://ashkrit.blogspot.com/2014/02/atomicinteger-java-7-vs-java-8.html",
+      "published": "2014-02-17T09:51:00.001-08:00",
+      "labels": [
+        "AtomicInteger",
+        "CAS",
+        "fetch-add",
+        "JDk8",
+        "Lock Free",
+        "Wait Free"
+      ],
+      "excerpt": "Atomic Integer is interesting class, it is used for building many lock free algorithm. Infact JDK locks are also build using ideas from Atomic datatypes. As name suggest it is used for doing atomic…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwPgwnUVUAFVniWntQZvFRpSuyRH2wYYHpEp70FUgghKrpdybzNasZe9W4BJNDn79dFf22dPXbJannQTtGyEbGExJg06pcp8-44pDUszn5qNdA7APRiCcWE3Jvz8OOWiE5Q1PnNCpBJSH-/s72-c/JDK+7+Vs+JDK+8.JPG"
+    },
+    {
+      "title": "Java Queues - Bad Practices",
+      "url": "https://ashkrit.blogspot.com/2014/01/java-queues-bad-practices.html",
+      "published": "2014-01-16T08:26:00.000-08:00",
+      "labels": [
+        "BlockingQueue",
+        "ConcurrentLinkedQueue",
+        "DeadLock",
+        "Locks"
+      ],
+      "excerpt": "Writing after long gap, looks like i lost the motivation or ran out of topic :-) Recently while going through code of my current assignment, i noticed that java blocking/concurrent queue is used in…"
+    },
+    {
+      "title": "Executor With ConcurrentLinkedQueue",
+      "url": "https://ashkrit.blogspot.com/2013/10/executor-with-concurrentlinkedqueue.html",
+      "published": "2013-10-15T02:32:00.001-07:00",
+      "labels": [],
+      "excerpt": "In this blog i will explore some of waiting strategy for inter thread communication. BlockingQueue is integral part of many concurrency framework including ExecutorService of Java. Some of concrete…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfq9q64OQggTwNtD3O3OLptyI9OaU1LBmtReeTayWiGPiavnPQQjwFERtjUs6k42hbYDpL5sameOhepsMQ4LH0E8GiDSYgozjKQaHxxHhekPMO5hxSN1b89kqWewbihxEeZQP0oaRatKub/s72-c/Queue+TP.JPG"
+    },
+    {
+      "title": "Linked List Revisited for In Memory computing",
+      "url": "https://ashkrit.blogspot.com/2013/09/linked-list-revisited-for-in-memory.html",
+      "published": "2013-09-22T10:17:00.000-07:00",
+      "labels": [
+        "GarbageCollection",
+        "LinkList",
+        "Memory"
+      ],
+      "excerpt": "Linked list is one of the first data structure that you learn when you start reading about data structure. Linked List has its own advantage over other data structure like array, just to recap few of…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI4kgNEkgX-VHuEIWfPe9wLR7LHhJZryxsX5KmSvsBRoOGEoJjYzCuFbxP1Wkr_fKRMGBCo0mYp26T7YVOplagH2swxJw_6FzvqNzbLDStiBedEonKcKe9-bf9XLp1vu8QZSghCJAM0i_e/s72-c/Add+Cost.JPG"
+    },
+    {
+      "title": "Concurrent Counter With No False Sharing",
+      "url": "https://ashkrit.blogspot.com/2013/09/concurrent-counter-with-no-false-sharing.html",
+      "published": "2013-09-14T02:14:00.002-07:00",
+      "labels": [
+        "CAS",
+        "Concurrency",
+        "Counter",
+        "False Sharing",
+        "Lockfree",
+        "MultiCore"
+      ],
+      "excerpt": "This blog is continuation of Scalable Counter post. One of the reader shared result from his system. He ran test on XEON intel processor with 16 core and total time taken for each type of counter is…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDptVeNDU14Es_6fsOcFLsnZcTdjANGrQ6kV7F4lLcCGY4yCsS932xGYbXP0B0BIgdeVoc8toJodW1rn9jKlknPDQTMApvmXECDPA3xcVXnaKfQfFzLJpgdt84GUtcu1mdsuVfrZ27oBDM/s72-c/All+Counter+-+Time+Taken.JPG"
+    },
+    {
+      "title": "Scalable Counters For Multi Core",
+      "url": "https://ashkrit.blogspot.com/2013/09/scalable-counters-for-multi-core.html",
+      "published": "2013-09-10T11:13:00.003-07:00",
+      "labels": [
+        "CAS",
+        "Concurrency",
+        "Counter",
+        "Lockfree",
+        "MultiCore"
+      ],
+      "excerpt": "Counters are required everywhere , for e.g. to find key KPI of application, load on application, total number of request served, some KPI for finding throughput of application & many more. With all…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrqKP59zJ1DQniXVztM569Vp5JZPNdbP5nJl92jMbv5lS7u1xIayz8_VTqV_AUDbuOZZQlvWnZNoZ60gtXA0_EiKw8vhhkrsIcP14LvyHMFI9rD2Cl7OguPzqm9iyQxY0j6MU-VayyBBSd/s72-c/Atomic+Int.JPG"
+    },
+    {
+      "title": "Which memory is faster Heap or ByteBuffer or Direct ?",
+      "url": "https://ashkrit.blogspot.com/2013/07/which-memory-is-faster-heap-or.html",
+      "published": "2013-07-25T11:38:00.000-07:00",
+      "labels": [
+        "DirectMemory",
+        "GarbageCollection",
+        "Heap",
+        "Java",
+        "Offheap"
+      ],
+      "excerpt": "Java is becoming new C/C++ , it is extensively used in developing High Performance System. Good for millions of Java developer like me:-) In this blog i will share my experiment with different types…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9KAxAfwms23e7aRC6G26RFJBpl1qJgOjXVRhK-xjvKHeTHs3Zr3kFnvAzz8YmOb5gMmNDRILSWat4Htn1xwZ2pJGYIgpNkdUj-SAc4KXYztX_6lBLrUzO_KQbF_ENc4XTU_WvtlcQAtel/s72-c/Allocation+-+Write+TP.JPG"
+    },
+    {
+      "title": "ArrayList Using Memory Mapped File",
+      "url": "https://ashkrit.blogspot.com/2013/07/arraylist-using-memory-mapped-file.html",
+      "published": "2013-07-20T09:30:00.003-07:00",
+      "labels": [
+        "BigData",
+        "High throughput",
+        "In-Memory",
+        "Low Latency",
+        "MemoryMapped",
+        "Performance"
+      ],
+      "excerpt": "Introduction In-Memory computing is picking up due to affordable hardware, most of the data is kept in RAM to meet latency and throughput goal, but keeping data in RAM create Garbage Collector…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKMO7VJvvmlKCyBuAgsbM99HQ6pwwnMQ6iNCPocm-Vx5RMdh0J5M6AqFIpd2QzJdPKf0PqX-Oun50WqSRNFAtw4JTU41IYuc8uyAJP5GJ56KeNdx7Ovv0FD75gXEpP1ACa_c_EmIk7zAcT/s72-c/BigArrayList+Write.JPG"
+    },
+    {
+      "title": "How To Write Micro benchmark In Java",
+      "url": "https://ashkrit.blogspot.com/2013/07/how-to-write-micro-benchmark-in-java.html",
+      "published": "2013-07-07T09:11:00.000-07:00",
+      "labels": [
+        "JHM",
+        "Micro benchmark"
+      ],
+      "excerpt": "So many article has been written on how to write micro-bench mark in java, this blog is my attempt to explain the topic. What is Micro benchmark Micro benchmark try to measure actual speed of small…"
+    },
+    {
+      "title": "Fast ReadWrite Lock",
+      "url": "https://ashkrit.blogspot.com/2013/06/fast-readwrite-lock.html",
+      "published": "2013-06-16T07:14:00.000-07:00",
+      "labels": [
+        "Concurrency",
+        "CPU cache",
+        "High throughput",
+        "Inter Thread communication",
+        "Locks",
+        "Read Write Lock"
+      ],
+      "excerpt": "Locks are bad for performance, but still they are good fit for some scenario. In this post i will review java Read/Write lock and alternate implementation of fast Read/Write lock What is…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjawJFt1N7OWyv9OhkKj29ZC-PTuXSeCyP58CDmgy9lLaZAlGXv3T1bZobCO9EiLP3ajNQIXEOq1OtHFUgYr937WATMDuZ6tj9hzxfmovs9gL7h9yjJScdn3YqdjbQ-6PRBEA2ojDrSzd50/s72-c/Writer+Perf.JPG"
+    },
+    {
+      "title": "CPU cache access pattern",
+      "url": "https://ashkrit.blogspot.com/2013/06/cpu-cache-access-pattern.html",
+      "published": "2013-06-09T02:18:00.000-07:00",
+      "labels": [
+        "Column Store",
+        "CPU cache",
+        "High throughput",
+        "Low Latency"
+      ],
+      "excerpt": "Things to know about low latency If you are developing low latency application then you have to remove bottleneck that can cause your latency to increase, some of the bottleneck that comes to my mind…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0BGucECqy7zmmmp7h2i2OCqe-HtOD_i6VEjub5N1rcS8_DeMds9BImmSm2_PJfh7WfNpHTG1Z8JTt_7NVLM78SAjvp-EmGK3fjK0HOOz6bdJXA4dZ6XtOPupYKMRHOcTsNsa25tPgqY47/s72-c/Search+-+Object+Vs+Col.JPG"
+    },
+    {
+      "title": "Lock Less Java Object Pool",
+      "url": "https://ashkrit.blogspot.com/2013/05/lock-less-java-object-pool.html",
+      "published": "2013-05-19T04:55:00.000-07:00",
+      "labels": [
+        "Concurrency",
+        "High throughput",
+        "Inter Thread communication",
+        "Object Pool",
+        "Performance"
+      ],
+      "excerpt": "It is being while i wrote anything, i has been busy with my new job that involve doing some interesting work in performance tuning. One of the challenge is to reduce object creation during critical…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNL5YsFMqUHF0ptD_9qAOwspP0kFyWoNpKVu87DoTGBPL4cBOThq2D6-n-4NHSrVqGgf4W8K-rgvGZR9upihJL12Mgqs9ojUIGzL2JoQoM44Ll7HqWGOLkZmPsl0OdJQjAg-mGSIIqdG1_/s72-c/Object+Pool+Access.JPG"
+    },
+    {
+      "title": "Experiment with ConcurrentHashmap",
+      "url": "https://ashkrit.blogspot.com/2013/02/experiment-with-concurrenthashmap.html",
+      "published": "2013-02-18T08:40:00.000-08:00",
+      "labels": [
+        "Concurrency",
+        "In-Memory",
+        "Threading"
+      ],
+      "excerpt": "I am investigating memory issue in one of my recent project where data is kept in memory for fast access, but memory footprint of application is very high. This application was heavily using CHM(i.e…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAZdFTEjmgXmlpAdZAKpGya1T5f6XoQ_V6rGH-1Z-xFkKd9OLniIHI7WcTVtGhEFP8Ir2N17xooauRqZY2YzPbwvfSeyb_wHJV20MrSyxJMqWPqxU21ojsRi4ibR5FoaGYWmMFwXFcYiAv/s72-c/Map+Memory.JPG"
+    },
+    {
+      "title": "Java Performance MindMap",
+      "url": "https://ashkrit.blogspot.com/2013/01/java-performance-mindmap.html",
+      "published": "2013-01-16T01:52:00.001-08:00",
+      "labels": [
+        "Performance"
+      ],
+      "excerpt": "Found interesting thing about java performance Reference - http://igormaznitsa.com/mindmaps/JavaPerformanceMindMap.png",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgbqWJlehnSfu72JNjMcSC_LW8W7gKpTpAtFIyi76YOSFPMQ0Ma4seMmvIwZ_cQy3Qvjstef6Hwoe0NovDi0-8AEPibeJz-5TPvwK9ajX-xuoF5PiOjZG_-6xlTxK_6yaGss_MRdVqOup4/s72-c/JavaPerformanceMindMap.png"
+    },
+    {
+      "title": "Java Reflection Facts",
+      "url": "https://ashkrit.blogspot.com/2013/01/java-reflection-facts.html",
+      "published": "2013-01-11T01:25:00.001-08:00",
+      "labels": [
+        "Java Reflection",
+        "Performance"
+      ],
+      "excerpt": "Java has wonderful feature that allow to inspect any object at run time and extract useful information about it for e.g constructor, methods, fields etc. Reflection provides flexibility at run time…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyPpG_OPO_8wPvqtOQu5bzvkjKbc7GPlPFwa-wc7MP9FWYcZvALSjh082lKd0naA-h-Ghcz8ExFyccVv7wg_Kr9ZF1N-dZX8p2El-G_yi5ODVpyQYtZzacEIQo7UUXhTBG2hVqI8NU4neL/s72-c/Normal+Vs+Reflection.JPG"
+    },
+    {
+      "title": "My New Year Resolution",
+      "url": "https://ashkrit.blogspot.com/2012/12/my-new-year-resolution.html",
+      "published": "2012-12-30T07:59:00.000-08:00",
+      "labels": [
+        "Motivational",
+        "New Year Resolution"
+      ],
+      "excerpt": "I am sure you have asked this question to your self as end of year of near. I am not sure about others but i make sure that whatever is set as NEW YEAR RESOLUTION is never achieve and reason is very…"
+    },
+    {
+      "title": "Are you using correct logging framework ?",
+      "url": "https://ashkrit.blogspot.com/2012/12/are-you-using-correct-logging-framework.html",
+      "published": "2012-12-25T06:37:00.000-08:00",
+      "labels": [
+        "High throughput",
+        "Lockfree",
+        "Logging",
+        "Low Latency"
+      ],
+      "excerpt": "Logging framework is heart of every application, it helps in troubleshooting production issue,knowing how your application is being use,what are bottle neck in application and may more. Using right…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjT6D1urR6SLp_Z9zfoI9MMJ24iUA_kIotzUBQRwbkhjxf-L21DTJ1wFE4tvzZyTHJp_QRaeX81Lqapf6bAa3hExPagi37UiKc2YEfzrzeiA1pD-AMm1BoEytpRRHM02i8seU42Bv_Zks5/s72-c/Java+Logger.JPG"
+    },
+    {
+      "title": "Lock Free bounded queue",
+      "url": "https://ashkrit.blogspot.com/2012/11/lock-free-bounded-queue.html",
+      "published": "2012-11-30T09:07:00.002-08:00",
+      "labels": [
+        "High throughput",
+        "Inter Thread communication",
+        "Lockfree",
+        "Low Latency"
+      ],
+      "excerpt": "Lock free bounded queue JDK 1.5 was first step towards adding serious concurrency support to java, it changed the way you write concurrent program and in other version 1.6, 1.7 etc more concurrency…",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqNnsH6aJe2y7X1fTGiYPIDiPF4o6GYLOMuDki6mxZbhiwSNtzrgne-NrUbNJUVrOqY5Kimss5FoZsEThwVkbp96WBnb_QCx20nVWfx4bYfR5mS6Ssblq7LWuw1Jc9qys6HqiCBYadM0t8/s72-c/Queue+Performance.PNG"
+    },
+    {
+      "title": "Latency number that you should know",
+      "url": "https://ashkrit.blogspot.com/2012/11/latency-number-that-you-should-know.html",
+      "published": "2012-11-03T23:12:00.000-07:00",
+      "labels": [
+        "CPU cache",
+        "High throughput",
+        "Low Latency"
+      ],
+      "excerpt": "Latency number that you should know Many of you work on low latency & high throughput system. Key to developing such system is understanding latency be it of cpu cache, Ram, disk or network. I found…"
+    },
+    {
+      "title": "Power of Java MemoryMapped File",
+      "url": "https://ashkrit.blogspot.com/2012/11/power-of-java-memorymapped-file.html",
+      "published": "2012-11-02T02:30:00.002-07:00",
+      "labels": [
+        "High throughput",
+        "Inter Thread communication",
+        "IPC",
+        "Low Latency",
+        "NIO"
+      ],
+      "excerpt": "Power of Java MemoryMapped File In JDK 1.4 interesting feature of Memory mapped file was added to java, which allow to map any file to OS memory for efficient reading. Memory mapped file can be used…"
+    },
+    {
+      "title": "What is your weakness",
+      "url": "https://ashkrit.blogspot.com/2012/11/what-is-your-weakness.html",
+      "published": "2012-11-01T07:38:00.002-07:00",
+      "labels": [
+        "HR",
+        "Interview",
+        "Personal Help"
+      ],
+      "excerpt": "What is your weakness I am basically java developer and thought that first blog that i will write will be on java, but their are many more interesting thing than java in world, so here is my first…"
+    }
+  ]
+}
